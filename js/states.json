@@ -1,0 +1,2258 @@
+[
+  {
+    "state": "Alabama",
+    "senators": [
+          {
+              "firstName": "Richard",
+              "lastName": "Shelby",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+          },
+          {
+            "firstName": "Jeff",
+            "lastName": "Sessions",
+            "party": "Republican",
+            "status": "senator",
+            "bio": "",
+            "image": ""
+          }
+    ],
+    "controllingParty": "Republican",
+    "contested": true,
+    "challengers": [
+            {
+              "firstName": "John",
+              "lastName": "Martin",
+              "party": "Republican",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Shadrack",
+              "lastName": "McGill",
+              "party": "Republican",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Johnathan",
+              "lastName": "McConnel",
+              "party": "Republican",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Marcus",
+              "lastName": "Bowman",
+              "party": "Republican",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Charles",
+              "lastName": "Nana",
+              "party": "Democrat",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Ron",
+              "lastName": "Crumpton",
+              "party": "Democrat",
+              "bio": "",
+              "image": ""
+            }
+      ]
+  },
+  {
+    "state": "Alaska",
+    "senators":  [
+            {
+              "firstName": "Lisa",
+              "lastName": "Murkowski",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Daniel S.",
+              "lastName": "Sullivan",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+          { }
+      ]
+  },
+  {
+    "state": "Arizona",
+    "senators": [
+            {
+              "firstName": "John",
+              "lastName": "McCain",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Jeff",
+              "lastName": "Flake",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican" ,
+    "challengers": [
+          {
+            "firstName": "Alex",
+            "lastName": "Meluskey",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Kelli",
+            "lastName": "Ward",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ann",
+            "lastName": "Kirkpatrick",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "J.L.",
+            "lastName": "Mealer",
+            "party": "Americans Elect of Arizona",
+            "bio": "",
+            "image": ""
+          },
+      ]
+  },
+  {
+    "state": "Arkansas",
+    "senators": [
+            {
+              "firstName": "John",
+              "lastName": "Boozman",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Tom",
+              "lastName": "Cotton",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+          {
+            "firstName": "Curtis",
+            "lastName": "Coleman",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Conner",
+            "lastName": "Eldridge",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Frank",
+            "lastName": "Gilbert",
+            "party": "Libertarian",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Jason",
+            "lastName": "Tate",
+            "party": "write-in",
+            "bio": "",
+            "image": ""
+          }
+        ]
+  },
+  {
+    "state": "California",
+    "senators": [
+            {
+              "firstName": "Barbara",
+              "lastName": "Boxer",
+              "party": "Democrat",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Dianne",
+              "lastName": "Feinstein",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+          {
+            "firstName": "John",
+            "lastName": "Estrada",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Mark",
+            "lastName": "Hardie",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Tom Del",
+            "lastName": "Beccaro",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Tom",
+            "lastName": "Palzer",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Duf",
+            "lastName": "Sundheim",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Phil",
+            "lastName": "Wyman",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Kamala",
+            "lastName": "Harris",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Loretta",
+            "lastName": "Sanchez",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Akinyemi",
+            "lastName": "Agbede",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ronnie",
+            "lastName": "Bracket",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Mark Matthew",
+            "lastName": "Herd",
+            "party": "Libertarian",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Hilaire Fuji",
+            "lastName": "Shioura",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+        ]
+  },
+  {
+    "state": "Colorado",
+    "senators": [
+            {
+              "firstName": "Michael",
+              "lastName": "Bennet",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Cory",
+              "lastName": "Gardner",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+          {
+            "firstName": "Darryl",
+            "lastName": "Glenn",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Greg",
+            "lastName": "Lopez",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Tim",
+            "lastName": "Neville",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ryan",
+            "lastName": "Frazier",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Donald",
+            "lastName": "Rosier",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "John",
+            "lastName": "Keyser",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Robert",
+            "lastName": "Blaha",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Peg",
+            "lastName": "Littleton",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Jack",
+            "lastName": "Graham",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Lily Tang",
+            "lastName": "Williams",
+            "party": "Libertarian",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ann",
+            "lastName": "Menconi",
+            "party": "Green Party",
+            "bio": "",
+            "image": ""
+          }
+        ]
+  },
+  {
+    "state": "Connecticut",
+    "senators":  [
+            {
+              "firstName": "Richard",
+              "lastName": "Blumenthal",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Christopher S.",
+              "lastName": "Murphy",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {
+        "firstName": "August",
+        "lastName": "Wolf",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Delaware",
+    "senators":  [
+            {
+              "firstName": "Chris",
+              "lastName": "Coons",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Tom",
+              "lastName": "Carper",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Florida",
+    "senators":  [
+            {
+              "firstName": "Marc",
+              "lastName": "Rubio",
+              "party": "Republican",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Bill",
+              "lastName": "Nelson",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "tie",
+    "challengers": [
+      {
+        "firstName": "Rohn",
+        "lastName": "DeSantis",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Carlo",
+        "lastName": "Lopez",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Todd",
+        "lastName": "Wilcox",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "David",
+        "lastName": "Jolly",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Ernie",
+        "lastName": "Ribera",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Howard",
+        "lastName": "Knepper",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Patrick",
+        "lastName": "Murphy",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Alan",
+        "lastName": "Grayson",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Pam",
+        "lastName": "Keith",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Charles Frederick",
+        "lastName": "Tolbert",
+        "party": "No Party Affiliation",
+        "bio": "",
+        "image": ""
+      },
+      ]
+  },
+  {
+    "state": "Georgia",
+    "senators":  [
+            {
+              "firstName": "Johnny",
+              "lastName": "Isakson",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "David",
+              "lastName": "Perdue",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {
+        "firstName": "Allen",
+        "lastName": "Buckley",
+        "party": "Libertarian",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Hawaii",
+    "senators":  [
+            {
+              "firstName": "Brian",
+              "lastName": "Schatz",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Mazie K.",
+              "lastName": "Hirono",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {   }
+      ]
+  },
+  {
+    "state": "Idaho",
+    "senators":  [
+            {
+              "firstName": "Jim",
+              "lastName": "Risch",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Mike",
+              "lastName": "Crapo",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {   }
+      ]
+  },
+  {
+    "state": "Illinois",
+    "senators":  [
+            {
+              "firstName": "Mark",
+              "lastName": "Kirk",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Dick",
+              "lastName": "Durbin",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "tie",
+    "challengers": [
+      {
+        "firstName": "James",
+        "lastName": "Marter",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Tammy",
+        "lastName": "Duckworth",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Andrea",
+        "lastName": "Zopp",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Napoleon",
+        "lastName": "Harris",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Chris",
+        "lastName": "Aguayo",
+        "party": "Veterans Party of America",
+        "bio": "",
+        "image": ""
+      },
+      ]
+  },
+  {
+    "state": "Indiana",
+    "senators":  [
+            {
+              "firstName": "Dan",
+              "lastName": "Coats",
+              "party": "Republican",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Joe",
+              "lastName": "Donnelly",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "tied",
+    "challengers": [
+      {
+        "firstName": "Martin",
+        "lastName": "Stutzman",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Todd",
+        "lastName": "Young",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Kevin",
+        "lastName": "Grant",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Baron",
+        "lastName": "Hill",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "Iowa",
+    "senators":  [
+            {
+              "firstName": "Chuck",
+              "lastName": "Grassley",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Joni",
+              "lastName": "Ernst",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {
+        "firstName": "Robb",
+        "lastName": "Hogg",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Bob",
+        "lastName": "Krause",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Tom",
+        "lastName": "Fiegen",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "Kansas",
+    "senators":  [
+            {
+              "firstName": "Jerry",
+              "lastName": "Moran",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Pat",
+              "lastName": "Roberts",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Kentucky",
+    "senators":  [
+            {
+              "firstName": "Rand",
+              "lastName": "Paul",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Mitch",
+              "lastName": "McConnel",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {
+        "firstName": "James",
+        "lastName": "Gould",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Stephen Howard",
+        "lastName": "Slaughter",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Jim",
+        "lastName": "Gray",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Rory",
+        "lastName": "Houlihan",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Jeff",
+        "lastName": "Kender",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Ron",
+        "lastName": "Leach",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Tom",
+        "lastName": "Recktenwald",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Grant",
+        "lastName": "Short",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Sellus",
+        "lastName": "Wilder",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      ]
+  },
+  {
+    "state": "Louisiana",
+    "senators":  [
+            {
+              "firstName": "David",
+              "lastName": "Vitter",
+              "party": "Republican",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Bill",
+              "lastName": "Cassidy",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {
+        "firstName": "John",
+        "lastName": "Fleming",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Charles",
+        "lastName": "Boustany Jr.",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Rob",
+        "lastName": "Maness",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Joseph",
+        "lastName": "Cao",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "John",
+        "lastName": "Kennedy",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Caroline",
+        "lastName": "Fayard",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Troy",
+        "lastName": "Hebert",
+        "party": "Independent",
+        "bio": "",
+        "image": ""
+      },
+      ]
+  },
+  {
+    "state": "Maine",
+    "senators":  [
+            {
+              "firstName": "Angus",
+              "lastName": "King",
+              "party": "Independent",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Susan",
+              "lastName": "Collins",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "tie",
+    "challengers": [
+      { }
+      ]
+  },
+  {
+    "state": "Maryland",
+    "senators":  [
+            {
+              "firstName": "Barbara",
+              "lastName": "Mikulski",
+              "party": "Democrat",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Ben",
+              "lastName": "Cardin",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+          {
+            "firstName": "Chris",
+            "lastName": "Chaffee",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Sean",
+            "lastName": "Connor",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Richard",
+            "lastName": "Douglas",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "John",
+            "lastName": "Graziani",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Greg",
+            "lastName": "Holmes",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Joseph",
+            "lastName": "Hooe",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Chrys",
+            "lastName": "Kefalas",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Robert L.",
+            "lastName": "Ehrlich, Jr.",
+            "party": "Republican",
+            "bio": "",
+            "image
+            ": ""
+          },
+          {
+            "firstName": "Mark",
+            "lastName": "McNicholas",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Lynn",
+            "lastName": "Richardson",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Anthony",
+            "lastName": "Seda",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Richard",
+            "lastName": "Shawver",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Kathy",
+            "lastName": "Szeliga",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Dave",
+            "lastName": "Wallace",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Garry",
+            "lastName": "Yarrington",
+            "party": "Republican",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Fred Donald",
+            "lastName": "Dickson",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Donna",
+            "lastName": "Edwards",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ralph",
+            "lastName": "Jaffe",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Theresa",
+            "lastName": "Scaldaferri",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Charles",
+            "lastName": "Smith",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Violet Scheryll",
+            "lastName": "Staley",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Blaine",
+            "lastName": "Taylor",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Ed",
+            "lastName": "Tinus",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Chris Van",
+            "lastName": "Hollen",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Lih",
+            "lastName": "Young",
+            "party": "Democrat",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Elizabeth",
+            "lastName": "Croydon",
+            "party": "Green",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Greg",
+            "lastName": "Dorsey",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Margaret",
+            "lastName": "Flowers",
+            "party": "Green",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Steve",
+            "lastName": "Gladstone",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Edward",
+            "lastName": "Shlikas",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Arvin",
+            "lastName": "Vohra",
+            "party": "Libertarian",
+            "bio": "",
+            "image": ""
+          },
+          {
+            "firstName": "Kay",
+            "lastName": "Young",
+            "party": "Independent",
+            "bio": "",
+            "image": ""
+          },
+        ]
+  },
+  {
+    "state": "Massachusetts",
+    "senators":  [
+            {
+              "firstName": "Ed",
+              "lastName": "Markey",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Elizabeth",
+              "lastName": "Warren",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Michigan",
+    "senators":  [
+            {
+              "firstName": "Debbie",
+              "lastName": "Stabenow",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Gary",
+              "lastName": "Peters",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {
+        "firstName": "Darryl",
+        "lastName": "Glenn",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "Minnesota",
+    "senators":  [
+            {
+              "firstName": "Al",
+              "lastName": "Franken",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Amy",
+              "lastName": "Klobuchar",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {   }
+    ]
+  },
+  {
+    "state": "Mississippi",
+    "senators":  [
+            {
+              "firstName": "Roger",
+              "lastName": "Wicker",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Thad",
+              "lastName": "Cochran",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Missouri",
+    "senators":  [
+            {
+              "firstName": "Roy",
+              "lastName": "Blunt",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Claire",
+              "lastName": "McCaskill",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Christopher",
+        "lastName": "Batsche",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Jason",
+        "lastName": "Kander",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "MD Rabbi",
+        "lastName": "Alam",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "Montana",
+    "senators":  [
+            {
+              "firstName": "Jon",
+              "lastName": "Tester",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Steve",
+              "lastName": "Daines",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "mixed",
+    "challengers": [
+      { }
+    ]
+  },
+  {
+    "state": "Nebraska",
+    "senators":  [
+            {
+              "firstName": "Ben",
+              "lastName": "Sasse",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Deb",
+              "lastName": "Fischer",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Nevada",
+    "senators":  [
+            {
+              "firstName": "Harry",
+              "lastName": "Reid",
+              "party": "Democrat",
+              "status": "retiring",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Dean",
+              "lastName": "Heller",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Joe",
+        "lastName": "Heck",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Catherine Cortez",
+        "lastName": "Masto",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "New Hampshire",
+    "senators":  [
+            {
+              "firstName": "Kelly",
+              "lastName": "Ayotte",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Jeanne",
+              "lastName": "Shaheen",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Maggie",
+        "lastName": "Hassan",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "New Jersey",
+    "senators":  [
+            {
+              "firstName": "Bob",
+              "lastName": "Menendez",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Cory",
+              "lastName": "Booker",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "New Mexico",
+    "senators":  [
+            {
+              "firstName": "Martin",
+              "lastName": "Heinrich",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Tom",
+              "lastName": "Udall",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "New York",
+    "senators":  [
+            {
+              "firstName": "Chuck",
+              "lastName": "Schumer",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Kirsten.",
+              "lastName": "Gillibrand",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "senators":  [
+            {
+              "firstName": "Richard",
+              "lastName": "Burr",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Thom",
+              "lastName": "Tillis",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {
+        "firstName": "Greg",
+        "lastName": "Brannon",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Larry",
+        "lastName": "Holmquist",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Paul",
+        "lastName": "Wright",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Kevin",
+        "lastName": "Griffin",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Ernest",
+        "lastName": "Reeves",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Chris",
+        "lastName": "Rey",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Deborah",
+        "lastName": "Ross",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Sean",
+        "lastName": "Hugh",
+        "party": "Independent",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "North Dakota",
+    "senators":  [
+            {
+              "firstName": "John",
+              "lastName": "Hoeven",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Heidi",
+              "lastName": "Heitkamp",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Darryl",
+        "lastName": "Glenn",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Ohio",
+    "senators":  [
+            {
+              "firstName": "Rob",
+              "lastName": "Portman",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Sherrod",
+              "lastName": "Brown",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Don Elijah",
+        "lastName": "Eckhard",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Kelli",
+        "lastName": "Prather",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "P.G.",
+        "lastName": "Sittenfeld",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Ted",
+        "lastName": "Strickland",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Thomas William",
+        "lastName": "Connors",
+        "party": "Independent",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Joseph",
+        "lastName": "Demare",
+        "party": "Green",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Scott",
+        "lastName": "Rupert",
+        "party": "Independent",
+        "bio": "",
+        "image": ""
+      },
+    ]
+  },
+  {
+    "state": "Oklahoma",
+    "senators":  [
+            {
+              "firstName": "James",
+              "lastName": "Lankford",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Jim",
+              "lastName": "Inhofe",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Oregon",
+    "senators":  [
+            {
+              "firstName": "Ron",
+              "lastName": "Wyden",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Jeff.",
+              "lastName": "Merkley",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {
+        "firstName": "Kevin",
+        "lastName": "Stines",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Pennsylvania",
+    "senators":  [
+            {
+              "firstName": "Pat",
+              "lastName": "Toomey",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Bob",
+              "lastName": "Casey Jr.",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Joe",
+        "lastName": "Sestak",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Ed",
+        "lastName": "Pawlowski",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Kate",
+        "lastName": "McGinty",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "John",
+        "lastName": "Fetterman",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Rhode Island",
+    "senators":  [
+            {
+              "firstName": "Jack",
+              "lastName": "Reed",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Sheldon",
+              "lastName": "Whitehouse",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      { }
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "senators":  [
+            {
+              "firstName": "Tim",
+              "lastName": "Scott",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Lindsey",
+              "lastName": "Graham",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "South Dakota",
+    "senators":  [
+            {
+              "firstName": "John",
+              "lastName": "Thune",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Mike",
+              "lastName": "Rounds",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "senators":  [
+            {
+              "firstName": "Bob",
+              "lastName": "Corker",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Lamar",
+              "lastName": "Alexander",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Republican",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Texas",
+    "senators":  [
+            {
+              "firstName": "Johnny",
+              "lastName": "Comyn",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Ted",
+              "lastName": "Cruz",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Republican",
+    "challengers": [
+      { }
+    ]
+  },
+  {
+    "state": "Utah",
+    "senators":  [
+            {
+              "firstName": "Mike",
+              "lastName": "Lee",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Orrin",
+              "lastName": "Hatch",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {    }
+    ]
+  },
+  {
+    "state": "Vermont",
+    "senators":  [
+            {
+              "firstName": "Patrick",
+              "lastName": "Leahy",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Bernie",
+              "lastName": "Sanders",
+              "party": "Independent",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {  }
+    ]
+  },
+  {
+    "state": "Virginia",
+    "senators":  [
+            {
+              "firstName": "Mark",
+              "lastName": "Warner",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Tim",
+              "lastName": "Kaine",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Democrat",
+    "challengers": [
+      { }
+    ]
+  },
+  {
+    "state": "Washington",
+    "senators":  [
+            {
+              "firstName": "Patty",
+              "lastName": "Murray",
+              "party": "Democrat",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Maria",
+              "lastName": "Cantwell",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "Democrat",
+    "challengers": [
+      {
+        "firstName": "Chris",
+        "lastName": "Vance",
+        "party": "Republican",
+        "bio": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "state": "West Virginia",
+    "senators":  [
+            {
+              "firstName": "Joe",
+              "lastName": "Manchin III",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Shelley Moore",
+              "lastName": "Capito",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "mixed",
+    "challengers": [
+      { }
+    ]
+  },
+  {
+    "state": "Wisconsin",
+    "senators":  [
+            {
+              "firstName": "Ron",
+              "lastName": "Johnson",
+              "party": "Republican",
+              "status": "incumbent",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Tammy",
+              "lastName": "Baldwin",
+              "party": "Democrat",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": true,
+    "controllingParty": "mixed",
+    "challengers": [
+      {
+        "firstName": "Russ",
+        "lastName": "Feingold",
+        "party": "Democrat",
+        "bio": "",
+        "image": ""
+      },
+      {
+        "firstName": "Phil",
+        "lastName": "Anderson",
+        "party": "Libertarian",
+        "bio": "",
+        "image": ""
+      }
+      ]
+  },
+  {
+    "state": "Wyoming",
+    "senators":  [
+            {
+              "firstName": "John",
+              "lastName": "Barrasso",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            },
+            {
+              "firstName": "Mike",
+              "lastName": "Enzi",
+              "party": "Republican",
+              "status": "senator",
+              "bio": "",
+              "image": ""
+            }
+    ],
+    "contested": false,
+    "controllingParty": "Republican",
+    "challengers": [
+      {    }
+    ]
+  }
+]
