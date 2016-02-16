@@ -12,7 +12,6 @@
     </head>
 
     <body ng-app="myApp">
-
         <div class="container" ng-controller="BaseController as base">
 
             <div class="row">
@@ -20,7 +19,12 @@
                     <h1>Test</h3>
                     <p>Hello</p>
                     <p>{{ base.message }}</p>
+                    <p>u workin?</p>
                 </div>
+            </div>
+            <div class="col-xs-3" ng-repeat="state in base.states">
+              {{ state.state }} <br>
+              {{ state.contested }}
             </div>
 
         </div>
