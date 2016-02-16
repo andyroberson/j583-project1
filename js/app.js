@@ -17,6 +17,85 @@ app.controller('BaseController', ['$http', function($http) {
           console.log("this request failed.\n" + msg);
         });
 
+this.infoBox = function(state) {
+  //if state name is clicked, show state info
+
+  for (var i = 0; i < this.states.length; i++) {
+    console.log(i);
+    if (state === this.states[i].state) {
+      //if the state is the same as the state name at position i in the array,
+      this.currentState = this.states[i];
+      console.log(this.currentState);
+      //then set the current state to that
+      var stateInfo = "";
+
+      stateInfo += '<h3>' + this.states[i].state + 's Senator: ' + this.states[i].senators[0].firstName +  '</h3>';
+
+      document.getElementById("stateInfo").innerHTML = stateInfo;
+
+    /*  uncomment this section after adding remaining data
+      if (this.states[i].image !== undefined) {
+        //if there's an image, add an image to the popup box
+      }
+
+      if(this.states[i].bio !== undefined) {
+        //if there's a bio, print it
+      }
+
+      if(this.states[i].platformPoints[] !== undefined) {
+        //if there are platform points, print them
+      }
+ */
+     // add all of this to an ID
+
+
+    }
+  }
+}
+/*lindsay's click example: not sure if will use
+this.isBoxOpen = false;
+this.chosenState = null;
+this.clickedStateCount = 0;
+
+this.clickedState = [];
+
+//shows party info box based on if a party was clicked
+this.showInfoBox = function(clickedState){
+
+  console.log("CLICK:");
+
+  //push the clicked pokemon into an array
+  this.clickedState.push(clickedState);
+
+  //get the previously clicked pokemon
+  this.previousState = this.clickedState[this.clickedState.length-2];
+  //there is only a previously clicked pokemon if...
+  this.isPreviousExists = this.clickedState.length >= 2;
+
+  console.log("you clicked on: " + clickedState);
+  console.log("previously you clicked on: " + this.previousState);
+  console.log("isBoxOpen: " + this.isBoxOpen);
+
+  this.chosenState = clickedState;
+
+  //if statement to overcome problem of box closing and not showing new pokemon data
+  if(this.isPreviousExists && this.isBoxOpen && this.previousState != clickedState){
+      this.isBoxOpen = !this.isBoxOpen;
+  }
+
+  //normal behavior if above criteria isn't met
+  this.isBoxOpen = !this.isBoxOpen;
+
+  console.log("automatically switch to: " + this.isBoxOpen);
+  console.log("isBoxOpen: " + this.isBoxOpen);
+}
+
+this.generateInfoBox = function(){
+  //console.log("generate");
+  return '<p>' + this.chosenState + '</p>';
+  console.log(this.chosenState);
+}*/
+
 }]);
 
 /* other to do :
