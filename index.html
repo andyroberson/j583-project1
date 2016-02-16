@@ -9,23 +9,32 @@
 
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
     </head>
 
     <body ng-app="myApp">
         <div class="container" ng-controller="BaseController as base">
 
-            <div class="row">
+            <!--div class="row">
                 <div class="col-xs-12">
-                    <h1>Test</h3>
-                    <p>Hello</p>
                     <p>{{ base.message }}</p>
                     <p>u workin?</p>
                 </div>
-            </div>
-            <div class="col-xs-3" ng-repeat="state in base.states">
-              {{ state.state }} <br>
-              {{ state.contested }}
-            </div>
+            </div-->
+        <div class="row text-center">
+          <h1>2016 Senate Race</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-1 hidden-xs"></div>
+          <div class="col-sm-10 col-xs-12">
+            <ul class="state-table">
+                  <li ng-repeat="state in base.states">{{ state. state }}</li>
+            </ul>
+          </div>
+          <div class="col-sm-1 hidden-xs"></div>
+        </div>
 
         </div>
 

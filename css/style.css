@@ -1,0 +1,14 @@
+
+
+/*styling for map table*/
+ul .state-table {
+  width: 500px;
+}
+ul li {
+  margin: 2px;
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}

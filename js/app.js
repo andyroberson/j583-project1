@@ -21,7 +21,7 @@ app.controller('BaseController', ['$http', function($http) {
 
 /* other to do :
 
-get it to nicely display all necessary stuff; maybe make a click div?
+get it to nicely display all necessary stuff; maybe make a click div? - MODALS http://v4-alpha.getbootstrap.com/components/modal/
 
 map: create for loop that goes through state names and if state name is the same as
 div id, assign the data to that state?
@@ -31,4 +31,13 @@ see https://intridea.github.io/stately/
 add more data to json file - images and platform points
 
 create rough design prototype?
+
+step 1 - design prototype
+step 2 - display / click
+         function for displaying senator as challenger? or just as incumbent
+step 3 - add all data
+step 4 - map????
+
+color function based on who's in control;
+
 */
