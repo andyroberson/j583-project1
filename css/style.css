@@ -1,8 +1,11 @@
 
 
 /*styling for map table*/
-ul .state-table {
-  width: 500px;
+ul.state-table {
+  width: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul li {
   margin: 2px;
