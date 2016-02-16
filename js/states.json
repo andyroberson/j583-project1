@@ -142,7 +142,7 @@
             "party": "Americans Elect of Arizona",
             "bio": "",
             "image": ""
-          },
+          }
       ]
   },
   {
@@ -304,7 +304,7 @@
             "party": "Independent",
             "bio": "",
             "image": ""
-          },
+          }
         ]
   },
   {
@@ -559,7 +559,7 @@
         "party": "No Party Affiliation",
         "bio": "",
         "image": ""
-      },
+      }
       ]
   },
   {
@@ -703,8 +703,8 @@
         "party": "Veterans Party of America",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Indiana",
@@ -916,8 +916,8 @@
         "party": "Democrat",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Louisiana",
@@ -990,8 +990,8 @@
         "party": "Independent",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Maine",
@@ -1096,8 +1096,7 @@
             "lastName": "Ehrlich, Jr.",
             "party": "Republican",
             "bio": "",
-            "image
-            ": ""
+            "image": ""
           },
           {
             "firstName": "Mark",
@@ -1266,7 +1265,7 @@
             "party": "Independent",
             "bio": "",
             "image": ""
-          },
+          }
         ]
   },
   {
@@ -1810,7 +1809,7 @@
         "party": "Independent",
         "bio": "",
         "image": ""
-      },
+      }
     ]
   },
   {
