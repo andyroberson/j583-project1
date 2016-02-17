@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example91-production</title>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+
+
+
+</head>
+<!--change this to work with a div though: https://docs.angularjs.org/api/ng/directive/ngShow -->
+<body ng-app="ngAnimate">
+  Click me:
+  <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide">
+  <br/>
+  <div>
+    Show:
+    <div class="check-element animate-show" ng-show="checked">
+      <span class="glyphicon glyphicon-thumbs-up"></span> I show up when your checkbox is checked.
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

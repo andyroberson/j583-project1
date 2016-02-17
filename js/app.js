@@ -25,7 +25,6 @@ this.infoBox = function(state) {
     if (state === this.states[i].state) {
       //if the state is the same as the state name at position i in the array,
       this.currentState = this.states[i];
-      console.log(this.currentState);
       //then set the current state to that
       var stateInfo = "";
 
@@ -33,11 +32,12 @@ this.infoBox = function(state) {
 
       document.getElementById("stateInfo").innerHTML = stateInfo;
 
-    /*  uncomment this section after adding remaining data
+
       if (this.states[i].image !== undefined) {
         //if there's an image, add an image to the popup box
       }
 
+    /*
       if(this.states[i].bio !== undefined) {
         //if there's a bio, print it
       }
