@@ -1,22 +1,33 @@
 [
   {
     "state": "Alabama",
+    "abbreviation": "al",
     "senators": [
           {
               "firstName": "Richard",
               "lastName": "Shelby",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Shelby has been a senator for 29 years.He was born ing Birminham in 1934 and has held previous political offices in the U.S. House of Representatives (from 1789 - 1987) and Alabama State Senate from 1970 - 1978",
+              "platforms": [
+                {"1" :"Against gay marriage"},
+                {"2" : "Opposes higher taxes on the wealthy"},
+                {"3" : "Opposes prioritizing green energy"}
+              ],
+              "image": "images/senators/AL-Richard-Shelby.jpg"
           },
           {
             "firstName": "Jeff",
             "lastName": "Sessions",
             "party": "Republican",
             "status": "senator",
-            "bio": "",
-            "image": ""
+            "bio": "Jeff Sessions was born in Selma, Alabama in 1946. He first became a senator of Alabama in 1996. He had previously worked as Alabama's Attorney General from 1994 - 1996 and has also worked as an attorney.",
+            "platforms": [
+              {"1" : "Anti-immigration (backed Trump's immigration platform"},
+              {"2" : "Pro-life"},
+              {"3" : "Supports harsh penalties for drug offenses"}
+            ],
+            "image": "images/senators/AL-Jeff-Sessions.jpg"
           }
     ],
     "controllingParty": "Republican",
@@ -68,14 +79,20 @@
   },
   {
     "state": "Alaska",
+    "abbreviation": "ak",
     "senators":  [
             {
               "firstName": "Lisa",
               "lastName": "Murkowski",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Lisa Murkowski was born in 1957 and has been senator since 2002. She went to Georgetown University in 1980 and has practiced as an attorney.",
+              "platforms": [
+                {"1" : "Against same-sex marriage"},
+                {"2" : "Against abortion"},
+                {"3" : "Supports gun ownership"}
+              ],
+              "image": "images/AK-Lisa-Murkowski.jpg"
             },
             {
               "firstName": "Daniel S.",
@@ -83,7 +100,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [ ],
+              "image": "images/AK-Daniel-Sullivan.jpg"
             }
     ],
     "contested": true,
@@ -94,14 +112,20 @@
   },
   {
     "state": "Arizona",
+    "abbreviation": "az",
     "senators": [
             {
               "firstName": "John",
               "lastName": "McCain",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John McCain was born in Panama in 1936 and has been a senator for 29 years. He gained name-recognition in 2008 when he ran for President of the US.",
+              "platforms": [
+                {"1" : "Opposes Obamacare"},
+                {"2" : "Against abortion"},
+                {"3" : "Strongly favors harsher punishments for crime"}
+              ],
+              "image": "images/senators/AR-John-McCain.jpg"
             },
             {
               "firstName": "Jeff",
@@ -109,7 +133,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/AR-Jeff-Flake.jpg"
             }
     ],
     "contested": true,
@@ -147,14 +172,20 @@
   },
   {
     "state": "Arkansas",
+    "abbreviation": "ar",
     "senators": [
             {
               "firstName": "John",
               "lastName": "Boozman",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John Boozman was born in 1950. He began his term as a senator in 2011, and had previously held offices include the House of Representatives from 2001 to 2011. He also works as an optometrist.",
+              "platforms": [
+                {"1" : "Favors military expansion"},
+                {"2" : "Supports privatizing Social Security"},
+                {"3" : "Against legalizing marijuana"}
+              ],
+              "image": "images/senators/AR-John-Boozman.jpg"
             },
             {
               "firstName": "Tom",
@@ -162,7 +193,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/AR-Tom-Cotton.jpg"
             }
     ],
     "contested": true,
@@ -200,14 +232,20 @@
   },
   {
     "state": "California",
+    "abbreviation": "ca",
     "senators": [
             {
               "firstName": "Barbara",
               "lastName": "Boxer",
               "party": "Democrat",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Barbara Boxer assumed office in 1993. She was born in Brooklyn, NY in 1940. She plans on continuing her work with important issues after she retires in 2016.",
+              "platforms": [
+                {"1" : "Pro-choice"},
+                {"2" : "Against absolute gun ownership"},
+                {"3" : "Supports same-sex marriage"}
+              ],
+              "image": "images/senators/CA-Barbara-Boxer.jpg"
             },
             {
               "firstName": "Dianne",
@@ -215,7 +253,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CA-Dianne-Feinstein.jpg"
             }
     ],
     "contested": true,
@@ -309,14 +348,20 @@
   },
   {
     "state": "Colorado",
+    "abbreviation": "co",
     "senators": [
             {
               "firstName": "Michael",
               "lastName": "Bennet",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Michael Bennet was born in New Delhi, India in 1964. He became senator in 2009 and graduated from Yale Law School in 1993 ",
+              "platforms": [
+                {"1" : "Supports Obamacare"},
+                {"2" : "Favors higher taxes on the wealthy"},
+                {"3" : "Opposes marijuana legalization"}
+              ],
+              "image": "images/senators/CO-Michael-Bennet.jpg"
             },
             {
               "firstName": "Cory",
@@ -324,7 +369,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CO-Cory-Gardner.jpg"
             }
     ],
     "contested": true,
@@ -411,14 +457,20 @@
   },
   {
     "state": "Connecticut",
+    "abbreviation": "ct",
     "senators":  [
             {
               "firstName": "Richard",
               "lastName": "Blumenthal",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Richard Blumenthal was born in 1946 in Brooklyn, New York. He served in the Marines from 1970 - 1976. He held several other offices before being elected as senator in 2011, including Connecticut Attorney General from 1991 - 2011, and as a Connecticut State Senator from 1987 to 1991.",
+              "platforms": [
+                {"1" : "Favors higher taxes on the wealthy"},
+                {"2" : "Opposes Social Security privatization"},
+                {"3" : "Opposes gun ownership"}
+              ],
+              "image": "images/senators/CT-Richard-Blumenthal.jpg"
             },
             {
               "firstName": "Christopher S.",
@@ -426,7 +478,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CT-Christopher-S-Murphy.jpg"
             }
     ],
     "contested": true,
@@ -443,14 +496,20 @@
   },
   {
     "state": "Delaware",
+    "abbreviation": "de",
     "senators":  [
             {
               "firstName": "Chris",
               "lastName": "Coons",
               "party": "Democrat",
-              "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "status": "senator",
+              "bio": "Chris Coons sbecame a senator in 2010. He attended Yale Law School in 1992. He was appointed to the Appropriations Committee in 2013",
+              "platforms": [
+                {"1" : "Pro-choice"},
+                {"2" : "Opposes military expansion"},
+                {"3" : "Favors Obamacare"}
+              ],
+              "image": "images/senators/DE-Chris-Coons.jpg"
             },
             {
               "firstName": "Tom",
@@ -458,7 +517,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/DE-Tom-Carper.jpg"
             }
     ],
     "contested": false,
@@ -469,6 +529,7 @@
   },
   {
     "state": "Florida",
+    "abbreviation": "fl",
     "senators":  [
             {
               "firstName": "Marc",
@@ -476,7 +537,8 @@
               "party": "Republican",
               "status": "retiring",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/FL-Marc-Rubio.jpg"
             },
             {
               "firstName": "Bill",
@@ -484,7 +546,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/FL-Bill-Nelson.jpg"
             }
     ],
     "contested": true,
@@ -564,14 +627,20 @@
   },
   {
     "state": "Georgia",
+    "abbreviation": "ga",
     "senators":  [
             {
               "firstName": "Johnny",
               "lastName": "Isakson",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Johnny Isakson became senator in 2005 after serving in the House of Representatives from 1999 - 2004. He was born in Atlanta in 1944 and served in the Georgia Air National Guard from 1966 to 1972.",
+              "platforms": [
+                {"1" : "Favors supporting and expanding free trade"},
+                {"2" : "Favors Social Security privatization"},
+                {"3" : "Opposes higher taxes on the wealthy"}
+              ],
+              "image": "images/senators/GA-Johnny-Isakson.jpg"
             },
             {
               "firstName": "David",
@@ -579,7 +648,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/GA-David-Perdue.jpg"
             }
     ],
     "contested": true,
@@ -596,6 +666,7 @@
   },
   {
     "state": "Hawaii",
+    "abbreviation": "hi",
     "senators":  [
             {
               "firstName": "Brian",
@@ -603,7 +674,12 @@
               "party": "Democrat",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "platforms": [
+                {"1" : "Favors higher taxes on the wealthy"},
+                {"2" : "Opposes Social Security privatization"},
+                {"3" : "Opposes gun ownership"}
+              ],
+              "image": "images/senators/HI-Brian-Schatz.jpg"
             },
             {
               "firstName": "Mazie K.",
@@ -611,7 +687,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/HI-Mazie_Hirono.jpg"
             }
     ],
     "contested": true,
@@ -622,6 +699,7 @@
   },
   {
     "state": "Idaho",
+    "abbreviation": "id",
     "senators":  [
             {
               "firstName": "Jim",
@@ -629,7 +707,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ID-Jim-Risch.jpg"
             },
             {
               "firstName": "Mike",
@@ -637,7 +715,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ID-Mike-Crapo.jpg"
             }
     ],
     "contested": true,
@@ -648,6 +726,7 @@
   },
   {
     "state": "Illinois",
+    "abbreviation": "il",
     "senators":  [
             {
               "firstName": "Mark",
@@ -655,7 +734,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IL-Mark-Kirk.jpg"
             },
             {
               "firstName": "Dick",
@@ -663,7 +742,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IL-Richard-Durbin.jpg"
             }
     ],
     "contested": true,
@@ -708,6 +787,7 @@
   },
   {
     "state": "Indiana",
+    "abbreviation": "in",
     "senators":  [
             {
               "firstName": "Dan",
@@ -715,7 +795,7 @@
               "party": "Republican",
               "status": "retiring",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IN-Dan-Coats.jpg"
             },
             {
               "firstName": "Joe",
@@ -723,7 +803,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IN-Joe-Donnelly.jpg"
             }
     ],
     "contested": true,
@@ -761,6 +841,7 @@
   },
   {
     "state": "Iowa",
+    "abbreviation": "ia",
     "senators":  [
             {
               "firstName": "Chuck",
@@ -768,7 +849,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IA-Chuck-Grassley.jpg"
             },
             {
               "firstName": "Joni",
@@ -776,7 +857,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/IA-Joni-Ernst.jpg"
             }
     ],
     "contested": true,
@@ -807,6 +888,7 @@
   },
   {
     "state": "Kansas",
+    "abbreviation": "ks",
     "senators":  [
             {
               "firstName": "Jerry",
@@ -814,7 +896,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/KS-Jerry_Moran.jpg"
             },
             {
               "firstName": "Pat",
@@ -822,7 +904,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/KS-Pat-Roberts.jpg"
             }
     ],
     "contested": true,
@@ -833,6 +915,7 @@
   },
   {
     "state": "Kentucky",
+    "abbreviation": "ky",
     "senators":  [
             {
               "firstName": "Rand",
@@ -840,7 +923,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/KY-Rand-Paul.jpg"
             },
             {
               "firstName": "Mitch",
@@ -848,7 +931,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/KY-Mitch-McConnell.jpg"
             }
     ],
     "contested": true,
@@ -921,6 +1004,7 @@
   },
   {
     "state": "Louisiana",
+    "abbreviation": "la",
     "senators":  [
             {
               "firstName": "David",
@@ -928,7 +1012,7 @@
               "party": "Republican",
               "status": "retiring",
               "bio": "",
-              "image": ""
+              "image": "images/senators/LA-David-Vitter.jpg"
             },
             {
               "firstName": "Bill",
@@ -936,7 +1020,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/LA-Bill_Cassidy.jpg"
             }
     ],
     "contested": true,
@@ -995,6 +1079,7 @@
   },
   {
     "state": "Maine",
+    "abbreviation": "me",
     "senators":  [
             {
               "firstName": "Angus",
@@ -1002,7 +1087,7 @@
               "party": "Independent",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ME-Angus-King.jpg"
             },
             {
               "firstName": "Susan",
@@ -1010,17 +1095,18 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ME-Susan-Collings.jpg"
             }
     ],
     "contested": false,
-    "controllingParty": "tie",
+    "controllingParty": "Rep-Ind",
     "challengers": [
       { }
       ]
   },
   {
     "state": "Maryland",
+    "abbreviation": "md",
     "senators":  [
             {
               "firstName": "Barbara",
@@ -1028,7 +1114,7 @@
               "party": "Democrat",
               "status": "retiring",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MD-Barbara_Mikulski.jpg"
             },
             {
               "firstName": "Ben",
@@ -1036,7 +1122,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MD-Ben_Cardin.jpg"
             }
     ],
     "contested": true,
@@ -1270,6 +1356,7 @@
   },
   {
     "state": "Massachusetts",
+    "abbreviation": "ma",
     "senators":  [
             {
               "firstName": "Ed",
@@ -1277,7 +1364,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MA-Ed-Markey.jpg"
             },
             {
               "firstName": "Elizabeth",
@@ -1285,7 +1372,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MA-Elizabeth-Warren.jpg"
             }
     ],
     "contested": false,
@@ -1296,6 +1383,7 @@
   },
   {
     "state": "Michigan",
+    "abbreviation": "mi",
     "senators":  [
             {
               "firstName": "Debbie",
@@ -1303,7 +1391,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MI-Debbie_Stabenow.jpg"
             },
             {
               "firstName": "Gary",
@@ -1311,7 +1399,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MI-Gary-Peters.jpg"
             }
     ],
     "contested": false,
@@ -1328,6 +1416,7 @@
   },
   {
     "state": "Minnesota",
+    "abbreviation": "mn",
     "senators":  [
             {
               "firstName": "Al",
@@ -1335,7 +1424,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MN-Al_Franken.jpg"
             },
             {
               "firstName": "Amy",
@@ -1343,7 +1432,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MN-Amy_Klobuchar.jpg"
             }
     ],
     "contested": false,
@@ -1354,6 +1443,7 @@
   },
   {
     "state": "Mississippi",
+    "abbreviation": "ms",
     "senators":  [
             {
               "firstName": "Roger",
@@ -1361,7 +1451,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MS-Roger_Wicker.jpg"
             },
             {
               "firstName": "Thad",
@@ -1369,7 +1459,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MS-Thad_Chochran.jpg"
             }
     ],
     "contested": false,
@@ -1380,6 +1470,7 @@
   },
   {
     "state": "Missouri",
+    "state": "mo",
     "senators":  [
             {
               "firstName": "Roy",
@@ -1387,7 +1478,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MO-Roy_Blunt.jpg"
             },
             {
               "firstName": "Claire",
@@ -1395,7 +1486,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MO-Claire-McCaskill.jpg"
             }
     ],
     "contested": true,
@@ -1426,6 +1517,7 @@
   },
   {
     "state": "Montana",
+    "abbreviation": "mt",
     "senators":  [
             {
               "firstName": "Jon",
@@ -1433,7 +1525,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MT-Jon_Tester.jpg"
             },
             {
               "firstName": "Steve",
@@ -1441,7 +1533,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/MT-Steve_Daines.jpg"
             }
     ],
     "contested": false,
@@ -1452,6 +1544,7 @@
   },
   {
     "state": "Nebraska",
+    "abbreviation": "ne",
     "senators":  [
             {
               "firstName": "Ben",
@@ -1459,7 +1552,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NE-Ben_Sasse.jpg"
             },
             {
               "firstName": "Deb",
@@ -1467,7 +1560,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NE-Deb-Fischer.jpg"
             }
     ],
     "contested": false,
@@ -1478,6 +1571,7 @@
   },
   {
     "state": "Nevada",
+    "abbreviation": "nv",
     "senators":  [
             {
               "firstName": "Harry",
@@ -1485,7 +1579,7 @@
               "party": "Democrat",
               "status": "retiring",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NV-Harry_Reid.jpg"
             },
             {
               "firstName": "Dean",
@@ -1493,7 +1587,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NV-Dean_Heller.jpg"
             }
     ],
     "contested": true,
@@ -1517,6 +1611,7 @@
   },
   {
     "state": "New Hampshire",
+    "abbreviation": "nh",
     "senators":  [
             {
               "firstName": "Kelly",
@@ -1524,7 +1619,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NH-Kelly_Ayotte.jpg"
             },
             {
               "firstName": "Jeanne",
@@ -1532,7 +1627,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NH-Jeanne_Shaheen.jpg"
             }
     ],
     "contested": true,
@@ -1549,6 +1644,7 @@
   },
   {
     "state": "New Jersey",
+    "abbreviation": "nj",
     "senators":  [
             {
               "firstName": "Bob",
@@ -1556,7 +1652,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NJ-Bob_Menendez.jpg"
             },
             {
               "firstName": "Cory",
@@ -1564,7 +1660,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NJ-Cory_Booker.jpg"
             }
     ],
     "contested": false,
@@ -1575,6 +1671,7 @@
   },
   {
     "state": "New Mexico",
+    "abbreviation": "nm",
     "senators":  [
             {
               "firstName": "Martin",
@@ -1582,7 +1679,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NM-Martin_Heinrich.jpg"
             },
             {
               "firstName": "Tom",
@@ -1590,7 +1687,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NM-Tom_Udall.jpg"
             }
     ],
     "contested": false,
@@ -1601,6 +1698,7 @@
   },
   {
     "state": "New York",
+    "abbreviation": "ny",
     "senators":  [
             {
               "firstName": "Chuck",
@@ -1608,7 +1706,7 @@
               "party": "Democrat",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NY-Chuck_Schumer.jpg"
             },
             {
               "firstName": "Kirsten.",
@@ -1616,7 +1714,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NY-Kirsten-Gillibrand.jpg"
             }
     ],
     "contested": true,
@@ -1627,6 +1725,7 @@
   },
   {
     "state": "North Carolina",
+    "abbreviation": "nc",
     "senators":  [
             {
               "firstName": "Richard",
@@ -1634,7 +1733,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/NC-Richard_Burr.jpg"
             },
             {
               "firstName": "Thom",
@@ -1642,7 +1741,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/Thom_Tillis.jpg"
             }
     ],
     "contested": true,
@@ -1708,6 +1807,7 @@
   },
   {
     "state": "North Dakota",
+    "abbreviation": "nd",
     "senators":  [
             {
               "firstName": "John",
@@ -1715,7 +1815,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ND-John_Hoeven.jpg"
             },
             {
               "firstName": "Heidi",
@@ -1723,7 +1823,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/ND-Heidi_Heitkamp.jpg"
             }
     ],
     "contested": true,
@@ -1740,6 +1840,7 @@
   },
   {
     "state": "Ohio",
+    "abbreviation": "oh",
     "senators":  [
             {
               "firstName": "Rob",
@@ -1747,7 +1848,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OH-Rob_Portman.jpg"
             },
             {
               "firstName": "Sherrod",
@@ -1755,7 +1856,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OH-Sherrod_Brown.jpg"
             }
     ],
     "contested": true,
@@ -1814,6 +1915,7 @@
   },
   {
     "state": "Oklahoma",
+    "abbreviation": "ok",
     "senators":  [
             {
               "firstName": "James",
@@ -1821,7 +1923,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OK-James_Lankford.jpg"
             },
             {
               "firstName": "Jim",
@@ -1829,7 +1931,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OK-Jim_Inhofe.jpg"
             }
     ],
     "contested": true,
@@ -1840,6 +1942,7 @@
   },
   {
     "state": "Oregon",
+    "abbreviation": "or",
     "senators":  [
             {
               "firstName": "Ron",
@@ -1847,15 +1950,15 @@
               "party": "Democrat",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OR-Ron_Wyden.jpg"
             },
             {
-              "firstName": "Jeff.",
+              "firstName": "Jeff",
               "lastName": "Merkley",
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/OR-Jeff_Markley.jpg"
             }
     ],
     "contested": true,
@@ -1872,6 +1975,7 @@
   },
   {
     "state": "Pennsylvania",
+    "abbreviation": "pa",
     "senators":  [
             {
               "firstName": "Pat",
@@ -1879,7 +1983,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/PA-Pat_Toomey.jpg"
             },
             {
               "firstName": "Bob",
@@ -1887,7 +1991,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/PA-Bob_Casey.jpg"
             }
     ],
     "contested": true,
@@ -1925,6 +2029,7 @@
   },
   {
     "state": "Rhode Island",
+    "abbreviation": "ri",
     "senators":  [
             {
               "firstName": "Jack",
@@ -1932,7 +2037,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/RI-Jack_Reed.jpg"
             },
             {
               "firstName": "Sheldon",
@@ -1940,7 +2045,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/RI-Sheldon_Whitehouse.jpg"
             }
     ],
     "contested": false,
@@ -1951,6 +2056,7 @@
   },
   {
     "state": "South Carolina",
+    "abbreviation": "sc",
     "senators":  [
             {
               "firstName": "Tim",
@@ -1958,7 +2064,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/SC-Tim_Scott.jpeg"
             },
             {
               "firstName": "Lindsey",
@@ -1966,7 +2072,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/SC-Lindsey_Graham.jpg"
             }
     ],
     "contested": true,
@@ -1977,6 +2083,7 @@
   },
   {
     "state": "South Dakota",
+    "abbreviation": "sd",
     "senators":  [
             {
               "firstName": "John",
@@ -1984,7 +2091,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/SD-John_Thune.jpg"
             },
             {
               "firstName": "Mike",
@@ -1992,7 +2099,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/SD-Mike_Rounds.jpg"
             }
     ],
     "contested": true,
@@ -2003,6 +2110,7 @@
   },
   {
     "state": "Tennessee",
+    "abbreviation": "tn",
     "senators":  [
             {
               "firstName": "Bob",
@@ -2010,7 +2118,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/TN-Bob_Corker.jpg"
             },
             {
               "firstName": "Lamar",
@@ -2018,7 +2126,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/TN-Lamar_Alexander.jpg"
             }
     ],
     "contested": false,
@@ -2029,6 +2137,7 @@
   },
   {
     "state": "Texas",
+    "abbreviation": "tx",
     "senators":  [
             {
               "firstName": "Johnny",
@@ -2036,7 +2145,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/TX-John_Cornyn.jpg"
             },
             {
               "firstName": "Ted",
@@ -2044,7 +2153,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/TX-Ted_Cruz.jpg"
             }
     ],
     "contested": false,
@@ -2055,6 +2164,7 @@
   },
   {
     "state": "Utah",
+    "abbreviation": "ut",
     "senators":  [
             {
               "firstName": "Mike",
@@ -2062,7 +2172,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/UT-Mike_Lee.jpg"
             },
             {
               "firstName": "Orrin",
@@ -2070,7 +2180,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/UT-Orrin_Hatch.jpg"
             }
     ],
     "contested": true,
@@ -2081,6 +2191,7 @@
   },
   {
     "state": "Vermont",
+    "abbreviation": "vt",
     "senators":  [
             {
               "firstName": "Patrick",
@@ -2088,7 +2199,7 @@
               "party": "Democrat",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/VT-Patrick_Leahy.jpg"
             },
             {
               "firstName": "Bernie",
@@ -2096,7 +2207,7 @@
               "party": "Independent",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/VT-Bernie_Sanders.jpg"
             }
     ],
     "contested": true,
@@ -2107,6 +2218,7 @@
   },
   {
     "state": "Virginia",
+    "abbreviation": "va",
     "senators":  [
             {
               "firstName": "Mark",
@@ -2114,7 +2226,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/VA-Mark_Warner.jpg"
             },
             {
               "firstName": "Tim",
@@ -2122,7 +2234,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/VA-Tim_Kaine.jpg"
             }
     ],
     "contested": false,
@@ -2133,6 +2245,7 @@
   },
   {
     "state": "Washington",
+    "abbreviation": "wa",
     "senators":  [
             {
               "firstName": "Patty",
@@ -2140,7 +2253,7 @@
               "party": "Democrat",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WA-Patty_Murray.jpg"
             },
             {
               "firstName": "Maria",
@@ -2148,7 +2261,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WA-Maria_Cantwell.jpg"
             }
     ],
     "contested": true,
@@ -2165,6 +2278,7 @@
   },
   {
     "state": "West Virginia",
+    "abbreviation": "wv",
     "senators":  [
             {
               "firstName": "Joe",
@@ -2172,7 +2286,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WV-Joe_Manchin.jpg"
             },
             {
               "firstName": "Shelley Moore",
@@ -2180,7 +2294,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WV-Shelly_Moore.jpeg"
             }
     ],
     "contested": false,
@@ -2191,6 +2305,7 @@
   },
   {
     "state": "Wisconsin",
+    "abbreviation": "wi",
     "senators":  [
             {
               "firstName": "Ron",
@@ -2198,7 +2313,7 @@
               "party": "Republican",
               "status": "incumbent",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WI-Ron_Johnson.jpg"
             },
             {
               "firstName": "Tammy",
@@ -2206,7 +2321,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WI-Tammy_Baldwin.jpeg"
             }
     ],
     "contested": true,
@@ -2230,6 +2345,7 @@
   },
   {
     "state": "Wyoming",
+    "abbreviation": "wy",
     "senators":  [
             {
               "firstName": "John",
@@ -2237,7 +2353,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WY-John_Barrasso.jpg"
             },
             {
               "firstName": "Mike",
@@ -2245,7 +2361,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "image": "images/senators/WY-Mike_Enzi.jpg"
             }
     ],
     "contested": false,
