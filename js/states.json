@@ -1526,7 +1526,7 @@
   },
   {
     "state": "Missouri",
-    "state": "mo",
+    "abbreviation": "mo",
     "senators":  [
             {
               "firstName": "Roy",
