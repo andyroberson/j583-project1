@@ -58,7 +58,16 @@
           <b>Biography</b>: Blah
           <b>Platform Points</b>: Blah
         </div>
-
+        <div class="display" ng-app="ngAnimate">
+            <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide">
+            <br/>
+            <div>
+              Show:
+              <div class="check-element animate-show" ng-show="checked">
+                <span class="glyphicon glyphicon-thumbs-up"></span> I show up when your checkbox is checked.
+              </div>
+            </div>
+        </div>
         <div class="container">
           <h2>Modal Example</h2>
           <!-- Trigger the modal with a button -->

@@ -21,7 +21,7 @@ this.infoBox = function(state) {
   //if state name is clicked, show state info
 
   for (var i = 0; i < this.states.length; i++) {
-    console.log(i);
+
     if (state === this.states[i].state) {
       //if the state is the same as the state name at position i in the array,
       this.currentState = this.states[i];
@@ -32,9 +32,13 @@ this.infoBox = function(state) {
 
       document.getElementById("stateInfo").innerHTML = stateInfo;
 
-
+      //need to make a loop that goes through all senators in the loop and prints out info for that senator.....
       if (this.states[i].image !== undefined) {
-        //if there's an image, add an image to the popup box
+        //<img ng-src="{{image}}" />
+
+        /*
+click and show notes = ng-show="product.images.length"      -- only show images if there are images... but how to click and show stuff?
+        */
       }
 
     /*
@@ -119,4 +123,9 @@ step 4 - map????
 
 color function based on who's in control;
 
+MORE NOTES = http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/2/section/2/tabs-inside-out - tabs-inside-out
+
+TABS = http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/2/section/2/using-tab-controller for setting map view / list view maybe??????? or SOrTing?
+
+COLORS = https://docs.angularjs.org/api/ng/directive/ngStyle
 */
