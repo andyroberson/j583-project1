@@ -2,6 +2,7 @@
   {
     "state": "Alabama",
     "abbreviation": "al",
+    "letter": "A",
     "senators": [
           {
               "firstName": "Richard",
@@ -80,6 +81,7 @@
   {
     "state": "Alaska",
     "abbreviation": "ak",
+    "letter": "B",
     "senators":  [
             {
               "firstName": "Lisa",
@@ -106,13 +108,12 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-          { }
-      ]
+    "challengers": []
   },
   {
     "state": "Arizona",
     "abbreviation": "az",
+    "letter": "D",
     "senators": [
             {
               "firstName": "John",
@@ -173,6 +174,7 @@
   {
     "state": "Arkansas",
     "abbreviation": "ar",
+    "letter": "C",
     "senators": [
             {
               "firstName": "John",
@@ -233,6 +235,7 @@
   {
     "state": "California",
     "abbreviation": "ca",
+    "letter": "E",
     "senators": [
             {
               "firstName": "Barbara",
@@ -349,6 +352,7 @@
   {
     "state": "Colorado",
     "abbreviation": "co",
+    "letter": "F",
     "senators": [
             {
               "firstName": "Michael",
@@ -458,6 +462,7 @@
   {
     "state": "Connecticut",
     "abbreviation": "ct",
+    "letter": "G",
     "senators":  [
             {
               "firstName": "Richard",
@@ -497,6 +502,7 @@
   {
     "state": "Delaware",
     "abbreviation": "de",
+    "letter": "H",
     "senators":  [
             {
               "firstName": "Chris",
@@ -530,6 +536,7 @@
   {
     "state": "Florida",
     "abbreviation": "fl",
+    "letter": "J",
     "senators":  [
             {
               "firstName": "Marc",
@@ -632,6 +639,7 @@
   {
     "state": "Georgia",
     "abbreviation": "ga",
+    "letter": "K",
     "senators":  [
             {
               "firstName": "Johnny",
@@ -671,6 +679,7 @@
   {
     "state": "Hawaii",
     "abbreviation": "hi",
+    "letter": "L",
     "senators":  [
             {
               "firstName": "Brian",
@@ -704,6 +713,7 @@
   {
     "state": "Idaho",
     "abbreviation": "id",
+    "letter": "M",
     "senators":  [
             {
               "firstName": "Jim",
@@ -737,6 +747,7 @@
   {
     "state": "Illinois",
     "abbreviation": "il",
+    "letter": "N",
     "senators":  [
             {
               "firstName": "Mark",
@@ -804,6 +815,7 @@
   {
     "state": "Indiana",
     "abbreviation": "in",
+    "letter": "O",
     "senators":  [
             {
               "firstName": "Dan",
@@ -864,6 +876,7 @@
   {
     "state": "Iowa",
     "abbreviation": "ia",
+    "letter": "P",
     "senators":  [
             {
               "firstName": "Chuck",
@@ -917,6 +930,7 @@
   {
     "state": "Kansas",
     "abbreviation": "ks",
+    "letter": "Q",
     "senators":  [
             {
               "firstName": "Jerry",
@@ -950,6 +964,7 @@
   {
     "state": "Kentucky",
     "abbreviation": "ky",
+    "letter": "R",
     "senators":  [
             {
               "firstName": "Rand",
@@ -1045,6 +1060,7 @@
   {
     "state": "Louisiana",
     "abbreviation": "la",
+    "letter": "S",
     "senators":  [
             {
               "firstName": "David",
@@ -1126,6 +1142,7 @@
   {
     "state": "Maine",
     "abbreviation": "me",
+    "letter": "T",
     "senators":  [
             {
               "firstName": "Angus",
@@ -1155,6 +1172,7 @@
   {
     "state": "Maryland",
     "abbreviation": "md",
+    "letter": "U",
     "senators":  [
             {
               "firstName": "Barbara",
@@ -1411,6 +1429,7 @@
   {
     "state": "Massachusetts",
     "abbreviation": "ma",
+    "letter": "V",
     "senators":  [
             {
               "firstName": "Ed",
@@ -1440,6 +1459,7 @@
   {
     "state": "Michigan",
     "abbreviation": "mi",
+    "letter": "W",
     "senators":  [
             {
               "firstName": "Debbie",
@@ -1469,6 +1489,7 @@
   {
     "state": "Minnesota",
     "abbreviation": "mn",
+    "letter": "X",
     "senators":  [
             {
               "firstName": "Al",
@@ -1498,6 +1519,7 @@
   {
     "state": "Mississippi",
     "abbreviation": "ms",
+    "letter": "Y",
     "senators":  [
             {
               "firstName": "Roger",
@@ -1527,6 +1549,7 @@
   {
     "state": "Missouri",
     "abbreviation": "mo",
+    "letter": "Z",
     "senators":  [
             {
               "firstName": "Roy",
@@ -1580,6 +1603,7 @@
   {
     "state": "Montana",
     "abbreviation": "mt",
+    "letter": "a",
     "senators":  [
             {
               "firstName": "Jon",
@@ -1609,6 +1633,7 @@
   {
     "state": "Nebraska",
     "abbreviation": "ne",
+    "letter": "b",
     "senators":  [
             {
               "firstName": "Ben",
@@ -1638,6 +1663,7 @@
   {
     "state": "Nevada",
     "abbreviation": "nv",
+    "letter": "c",
     "senators":  [
             {
               "firstName": "Harry",
@@ -1684,6 +1710,7 @@
   {
     "state": "New Hampshire",
     "abbreviation": "nh",
+    "letter": "d",
     "senators":  [
             {
               "firstName": "Kelly",
@@ -1723,6 +1750,7 @@
   {
     "state": "New Jersey",
     "abbreviation": "nj",
+    "letter": "e",
     "senators":  [
             {
               "firstName": "Bob",
@@ -1752,6 +1780,7 @@
   {
     "state": "New Mexico",
     "abbreviation": "nm",
+    "letter": "f",
     "senators":  [
             {
               "firstName": "Martin",
@@ -1781,6 +1810,7 @@
   {
     "state": "New York",
     "abbreviation": "ny",
+    "letter": "g",
     "senators":  [
             {
               "firstName": "Chuck",
@@ -1814,6 +1844,7 @@
   {
     "state": "North Carolina",
     "abbreviation": "nc",
+    "letter": "h",
     "senators":  [
             {
               "firstName": "Richard",
@@ -1902,6 +1933,7 @@
   {
     "state": "North Dakota",
     "abbreviation": "nd",
+    "letter": "i",
     "senators":  [
             {
               "firstName": "John",
@@ -1941,6 +1973,7 @@
   {
     "state": "Ohio",
     "abbreviation": "oh",
+    "letter": "j",
     "senators":  [
             {
               "firstName": "Rob",
@@ -2022,6 +2055,7 @@
   {
     "state": "Oklahoma",
     "abbreviation": "ok",
+    "letter": "k",
     "senators":  [
             {
               "firstName": "James",
@@ -2055,6 +2089,7 @@
   {
     "state": "Oregon",
     "abbreviation": "or",
+    "letter": "l",
     "senators":  [
             {
               "firstName": "Ron",
@@ -2094,6 +2129,7 @@
   {
     "state": "Pennsylvania",
     "abbreviation": "pa",
+    "letter": "m",
     "senators":  [
             {
               "firstName": "Pat",
@@ -2154,6 +2190,7 @@
   {
     "state": "Rhode Island",
     "abbreviation": "ri",
+    "letter": "n",
     "senators":  [
             {
               "firstName": "Jack",
@@ -2183,6 +2220,7 @@
   {
     "state": "South Carolina",
     "abbreviation": "sc",
+    "letter": "o",
     "senators":  [
             {
               "firstName": "Tim",
@@ -2216,6 +2254,7 @@
   {
     "state": "South Dakota",
     "abbreviation": "sd",
+    "letter": "p",
     "senators":  [
             {
               "firstName": "John",
@@ -2249,6 +2288,7 @@
   {
     "state": "Tennessee",
     "abbreviation": "tn",
+    "letter": "q",
     "senators":  [
             {
               "firstName": "Bob",
@@ -2278,6 +2318,7 @@
   {
     "state": "Texas",
     "abbreviation": "tx",
+    "letter": "r",
     "senators":  [
             {
               "firstName": "Johnny",
@@ -2307,6 +2348,7 @@
   {
     "state": "Utah",
     "abbreviation": "ut",
+    "letter": "s",
     "senators":  [
             {
               "firstName": "Mike",
@@ -2338,6 +2380,7 @@
   {
     "state": "Vermont",
     "abbreviation": "vt",
+    "letter": "u",
     "senators":  [
             {
               "firstName": "Patrick",
@@ -2369,6 +2412,7 @@
   {
     "state": "Virginia",
     "abbreviation": "va",
+    "letter": "t",
     "senators":  [
             {
               "firstName": "Mark",
@@ -2398,6 +2442,7 @@
   {
     "state": "Washington",
     "abbreviation": "wa",
+    "letter": "v",
     "senators":  [
             {
               "firstName": "Patty",
@@ -2437,6 +2482,7 @@
   {
     "state": "West Virginia",
     "abbreviation": "wv",
+    "letter": "w",
     "senators":  [
             {
               "firstName": "Joe",
@@ -2466,6 +2512,7 @@
   {
     "state": "Wisconsin",
     "abbreviation": "wi",
+    "letter": "x",
     "senators":  [
             {
               "firstName": "Ron",
@@ -2512,6 +2559,7 @@
   {
     "state": "Wyoming",
     "abbreviation": "wy",
+    "letter": "y",
     "senators":  [
             {
               "firstName": "John",
@@ -2534,8 +2582,6 @@
     ],
     "contested": false,
     "controllingParty": "Republican",
-    "challengers": [
-      {    }
-    ]
+    "challengers": []
   }
 ]

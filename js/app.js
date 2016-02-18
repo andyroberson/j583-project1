@@ -18,13 +18,44 @@ app.controller('BaseController', ['$http', function($http) {
           console.log("this request failed.\n" + msg);
         });
 
+    this.getCurrentColor = function(state) {
+          for (var i = 0; i < this.states.length; i++) {
+
+            if (state === this.states[i].state) {
+                   if (this.states[i].controllingParty == "Democrat") {
+                     return 'blue';
+                   }
+
+                   else {
+                     return 'red';
+                   }
+            }
+          }
+      };
+
+this.getClass = function(state) {
+  for (var i = 0; i < this.states.length; i++) {
+    if (state === this.states[i].state) {
+           return this.states[i].abbreviation;
+    }
+  }
+}
+
+this.stateClicked = function(abbreviation) {
+  for (var i = 0; i < this.states.length; i++) {
+
+    if (abbreviation === this.states[i].abbreviation) {
+           console.log("You clicked state: " + this.states[i].state);
+    }
+  }
+}
 
 this.infoBox = function(state) {
   //if state name is clicked, show state info
 
   for (var i = 0; i < this.states.length; i++) {
-
     if (state === this.states[i].state) {
+        console.log("You clicked state: " + this.states[i].state);
       //if the state is the same as the state name at position i in the array,
       //then set the current state to that
       var stateInfo = "";
@@ -35,7 +66,8 @@ this.infoBox = function(state) {
 
       /*if (this.states[i].controllingParty === "Democrat") {
         this.hasBlueClass = true;
-      } QUESTION- how to add blue class without adding it to everything? should i do style instead? add ID*/
+      }
+      else ()QUESTION- how to add blue class without adding it to everything? should i do style instead? add ID*/
 
       /*loop for printing senator info
       for (var j = 0; j < this.states[i].senators.length; j++) {

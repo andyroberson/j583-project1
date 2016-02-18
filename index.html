@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <meta charset="utf-8">
+
         <!-- angular -->
         <script type="text/javascript" src="js/angular.js"></script>
 
@@ -16,27 +19,29 @@
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="stately-master/assets/css/screen.css?v=1.0">
+        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0">
 
     </head>
 
     <body ng-app="myApp">
         <div class="container" ng-controller="BaseController as base">
-
-            <!--div class="row">
-                <div class="col-xs-12">
-                    <p>{{ base.message }}</p>
-                    <p>u workin?</p>
-                </div>
-            </div-->
+        <div class="map-test">
+          <ul class="stately" id="plain">
+        		<li ng-repeat="state in base.states" ng-click="base.stateClicked(state.abbreviation)" ng-class="[base.getClass(state.state)]" ng-style="{'color': base.getCurrentColor(state.state)}">
+              <span>{{state.letter}}</span>
+            </li>
+          </ul>
+        </div>
         <div class="row text-center">
         <h1>2016 Senate Race</h1>
         </div>
 
         <div class="row">
           <div class="col-sm-1 hidden-xs"></div>
-          <div ng-class="{'col-lg-7 col-md-7 col-xs-7':main.isBoxOpen, 'col-lg-12 col-md-12 col-xs-12':!main.isBoxOpen}">
+          <div div class="col-sm-10 col-xs-12">
             <ul class="state-table">
-                  <li ng-class="{blue: base.hasBlueClass}" ng-repeat="state in base.states" ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
+                  <li ng-repeat="state in base.states" ng-style="{'background-color': base.getCurrentColor(state.state)}" ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
             </ul>
           </div>
           <div class="col-sm-1 hidden-xs"></div>
@@ -63,23 +68,35 @@
                   <table class="table">
                     <thead>
                       <tr>
-                        <th></th>
-                        <th ng-click="base.setSort('first')">First Name <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('last')">Last Name <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('position')">Position <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('games')">Games <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('points')">Points <i class="fa fa-sort"></i></th>
+                        <th>State</th>
+                        <th ng-click="base.setSort('first')">Status<i class="fa fa-sort"></i></th>
+                          <th ng-click="base.setSort('last')">Controlling party <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('position')">Senators <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('games')">Challengers <i class="fa fa-sort"></i></th>
                         <!--th ng-click="base.setSort('shootingPercent')">Shooting Percentage <i class="fa fa-sort"></i></th-->
                       </tr>
                     </thead>
                     <tbody>
-                      <tr ng-repeat="player in base.players | filter:terms | orderBy:base.sort:base.direction">
-                        <td><img ng-src="{{player.images[0]}}" height="100" width="100" border="0"/></td>
-                        <td>{{ player.first }}</td>
-                        <td>{{ player.last }}</td>
-                        <td>{{ player.position }}</td>
+                      <tr ng-repeat="state in base.states | filter:terms | orderBy:base.sort:base.direction">
+                        <td>{{ state.state }}</td>
+                        <td>{{ state.contested }}</td>
+                        <td>{{ state.controllingParty }}</td>
+                        <td>
+                          <div class="panel-group">
+                            <div class="panel panel-default">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a data-toggle="collapse" href=#{{state.senators[0].lastName}}>{{ state.senators[0].firstName }}</a>
+                                </h4>
+                              </div>
+                              <div id="{{state.senators[0].lastName}}" class="panel-collapse collapse">
+                                <div class="panel-body">Panel Body</div>
+                                <div class="panel-footer">Panel Footer</div>
+                              </div>
+                            </div>
+                          </div>
+                      </td>
                         <td>{{ player.games }}</td>
-                        <td>{{ player.points }}</td>
                         <!--td>{{ base.shootingPercentage('points', 'fieldGoalsAttempted', 'freeThrowsAttempted') }}</td-->
                       </tr>
                     </tbody>
