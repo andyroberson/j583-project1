@@ -706,9 +706,7 @@
     ],
     "contested": true,
     "controllingParty": "Democrat",
-    "challengers": [
-      {   }
-      ]
+    "challengers": []
   },
   {
     "state": "Idaho",
@@ -740,9 +738,7 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {   }
-      ]
+    "challengers": []
   },
   {
     "state": "Illinois",
@@ -957,9 +953,7 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Kentucky",
@@ -1837,9 +1831,7 @@
     ],
     "contested": true,
     "controllingParty": "Democrat",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "North Carolina",
@@ -2082,9 +2074,7 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Oregon",
@@ -2247,9 +2237,7 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "South Dakota",
@@ -2281,9 +2269,7 @@
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Tennessee",

@@ -28,7 +28,12 @@
         <div class="container" ng-controller="BaseController as base">
         <div class="map-test">
           <ul class="stately" id="plain">
-        		<li ng-repeat="state in base.states" ng-click="base.stateClicked(state.abbreviation)" ng-class="[base.getClass(state.state)]" ng-style="{'color': base.getCurrentColor(state.state)}">
+
+          <!--map that only shows wyoming right now-->
+        		<li ng-repeat="state in base.states"
+                ng-style="{'color': base.getStateColor(state.state)}"
+                ng-class="[base.getClass(state.state)]"
+                ng-click="base.infoBox(state.state)">
               <span>{{state.letter}}</span>
             </li>
           </ul>
@@ -37,11 +42,15 @@
         <h1>2016 Senate Race</h1>
         </div>
 
+
         <div class="row">
           <div class="col-sm-1 hidden-xs"></div>
-          <div div class="col-sm-10 col-xs-12">
+          <div class="col-sm-10 col-xs-12">
+            <!--grid that works!-->
             <ul class="state-table">
-                  <li ng-repeat="state in base.states" ng-style="{'background-color': base.getCurrentColor(state.state)}" ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
+                  <li ng-repeat="state in base.states"
+                  ng-style="{'background-color': base.getStateColor(state.state)}"
+                  ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
             </ul>
           </div>
           <div class="col-sm-1 hidden-xs"></div>
@@ -82,7 +91,7 @@
                         <td>{{ state.contested }}</td>
                         <td>{{ state.controllingParty }}</td>
                         <td>
-                          <div class="panel-group">
+                          <div ng-style="{'background-color': base.getSenatorColor(state.senators[0])}" class="panel-group">
                             <div class="panel panel-default">
                               <div class="panel-heading">
                                 <h4 class="panel-title">

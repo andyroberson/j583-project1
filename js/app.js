@@ -18,7 +18,7 @@ app.controller('BaseController', ['$http', function($http) {
           console.log("this request failed.\n" + msg);
         });
 
-    this.getCurrentColor = function(state) {
+    this.getStateColor = function(state) {
           for (var i = 0; i < this.states.length; i++) {
 
             if (state === this.states[i].state) {
@@ -33,6 +33,18 @@ app.controller('BaseController', ['$http', function($http) {
           }
       };
 
+      /*this.getSenatorColor = function(senator) {
+             if (this.states.senators[0].party == "Democrat") {
+               return 'blue';
+             }
+
+             else {
+               return 'red';
+             }
+          };*/
+
+
+
 this.getClass = function(state) {
   for (var i = 0; i < this.states.length; i++) {
     if (state === this.states[i].state) {
@@ -41,6 +53,7 @@ this.getClass = function(state) {
   }
 }
 
+/*this was just for testing
 this.stateClicked = function(abbreviation) {
   for (var i = 0; i < this.states.length; i++) {
 
@@ -48,26 +61,25 @@ this.stateClicked = function(abbreviation) {
            console.log("You clicked state: " + this.states[i].state);
     }
   }
-}
+}*/
 
 this.infoBox = function(state) {
   //if state name is clicked, show state info
-
+  console.log(state);
   for (var i = 0; i < this.states.length; i++) {
     if (state === this.states[i].state) {
+
         console.log("You clicked state: " + this.states[i].state);
       //if the state is the same as the state name at position i in the array,
       //then set the current state to that
+
+      //creating variables that will store information about state / senator
       var stateInfo = "";
       var senatorInfo = "";
 
       //controlling party
       console.log("Controlling Party: " + this.states[i].controllingParty);
 
-      /*if (this.states[i].controllingParty === "Democrat") {
-        this.hasBlueClass = true;
-      }
-      else ()QUESTION- how to add blue class without adding it to everything? should i do style instead? add ID*/
 
       /*loop for printing senator info
       for (var j = 0; j < this.states[i].senators.length; j++) {
@@ -135,49 +147,6 @@ click and show notes = ng-show="product.images.length"      -- only show images 
     }
   }
 }
-/*lindsay's click example: not sure if will use
-this.isBoxOpen = false;
-this.chosenState = null;
-this.clickedStateCount = 0;
-
-this.clickedState = [];
-
-//shows party info box based on if a party was clicked
-this.showInfoBox = function(clickedState){
-
-  console.log("CLICK:");
-
-  //push the clicked pokemon into an array
-  this.clickedState.push(clickedState);
-
-  //get the previously clicked pokemon
-  this.previousState = this.clickedState[this.clickedState.length-2];
-  //there is only a previously clicked pokemon if...
-  this.isPreviousExists = this.clickedState.length >= 2;
-
-  console.log("you clicked on: " + clickedState);
-  console.log("previously you clicked on: " + this.previousState);
-  console.log("isBoxOpen: " + this.isBoxOpen);
-
-  this.chosenState = clickedState;
-
-  //if statement to overcome problem of box closing and not showing new pokemon data
-  if(this.isPreviousExists && this.isBoxOpen && this.previousState != clickedState){
-      this.isBoxOpen = !this.isBoxOpen;
-  }
-
-  //normal behavior if above criteria isn't met
-  this.isBoxOpen = !this.isBoxOpen;
-
-  console.log("automatically switch to: " + this.isBoxOpen);
-  console.log("isBoxOpen: " + this.isBoxOpen);
-}
-
-this.generateInfoBox = function(){
-  //console.log("generate");
-  return '<p>' + this.chosenState + '</p>';
-  console.log(this.chosenState);
-}*/
 
 ]);
 
