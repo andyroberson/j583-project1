@@ -28,8 +28,12 @@ this.infoBox = function(state) {
       var stateInfo = "";
       var senatorInfo = "";
 
+      //controlling party
+      console.log("Controlling Party: " + this.states[i].controllingParty);
+
       /*loop for printing senator info
       for (var j = 0; j < this.states[i].senators.length; j++) {
+        console.log(this.states[i].senators[j].image);
         console.log(this.states[i].senators[j].firstName + " " + this.states[i].senators[j].lastName);
         console.log("Party: " + this.states[i].senators[j].party);
         console.log(this.states[i].senators[j].status);
@@ -44,21 +48,22 @@ this.infoBox = function(state) {
     if (this.states[i].contested == true) {
       //only need to print challengers if this state is contested
       console.log("This state is contested");
-      //loop for printing challengers
-      for (var j = 0; j < this.states[i].challengers.length; j++) {
 
-          if (this.states[i].challengers[j].length == 0) {
-            console.log("As of February, there are no challengers!");
-          }
-
-          else {
-          console.log("Challenger #" + (j+1) + this.states[i].challengers[j].firstName + " " + this.states[i].challengers[j].lastName);
-          console.log("Party: " + this.states[i].challengers[j].party);
-          }
+      //if there the challengers array is empty there are no challengers
+      if (this.states[i].challengers[0] === undefined) {
+        console.log("As of February, there are no challengers to the incumbent!");
       }
 
-    }
+      //otherwise, loop through the challengers array and print all challengers info
+      else {
+        for (var j = 0; j < this.states[i].challengers.length; j++) {
 
+          console.log("Challenger #" + (j+1) + " " + this.states[i].challengers[j].firstName + " " + this.states[i].challengers[j].lastName);
+          console.log("Party: " + this.states[i].challengers[j].party);
+
+        }
+      }
+    }
     //if it's not contested, it has no challengers
     else {
       console.log("This state is not contested!");
@@ -69,7 +74,6 @@ this.infoBox = function(state) {
       document.getElementById("stateInfo").innerHTML = stateInfo;
 
       //need to make a loop that goes through all senators in the loop and prints out info for that senator.....
-      if (this.states[i].image !== undefined) {
         //<img ng-src="{{image}}" />
 
         /*
