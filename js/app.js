@@ -24,9 +24,45 @@ this.infoBox = function(state) {
 
     if (state === this.states[i].state) {
       //if the state is the same as the state name at position i in the array,
-      this.currentState = this.states[i];
       //then set the current state to that
       var stateInfo = "";
+      var senatorInfo = "";
+
+      /*loop for printing senator info
+      for (var j = 0; j < this.states[i].senators.length; j++) {
+        console.log(this.states[i].senators[j].firstName + " " + this.states[i].senators[j].lastName);
+        console.log("Party: " + this.states[i].senators[j].party);
+        console.log(this.states[i].senators[j].status);
+        console.log("Bio: " + this.states[i].senators[j].bio);
+        for (var k = 0; k < this.states[i].senators[j].platforms.length; k++) {
+          console.log("Platform point " + (k+1) + ": " + this.states[i].senators[j].platforms[k].platform);
+          //(this doesn't work for kansas and south dakota
+        }
+      }*/
+
+
+    if (this.states[i].contested == true) {
+      //only need to print challengers if this state is contested
+      console.log("This state is contested");
+      //loop for printing challengers
+      for (var j = 0; j < this.states[i].challengers.length; j++) {
+
+          if (this.states[i].challengers[j].length == 0) {
+            console.log("As of February, there are no challengers!");
+          }
+
+          else {
+          console.log("Challenger #" + (j+1) + this.states[i].challengers[j].firstName + " " + this.states[i].challengers[j].lastName);
+          console.log("Party: " + this.states[i].challengers[j].party);
+          }
+      }
+
+    }
+
+    //if it's not contested, it has no challengers
+    else {
+      console.log("This state is not contested!");
+    }
 
       stateInfo += '<h3>' + this.states[i].state + 's Senator: ' + this.states[i].senators[0].firstName +  '</h3>';
 

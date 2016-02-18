@@ -10,9 +10,9 @@
               "status": "incumbent",
               "bio": "Shelby has been a senator for 29 years.He was born ing Birminham in 1934 and has held previous political offices in the U.S. House of Representatives (from 1789 - 1987) and Alabama State Senate from 1970 - 1978",
               "platforms": [
-                {"1" :"Against gay marriage"},
-                {"2" : "Opposes higher taxes on the wealthy"},
-                {"3" : "Opposes prioritizing green energy"}
+                {"platform" :"Against gay marriage"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Opposes prioritizing green energy"}
               ],
               "image": "images/senators/AL-Richard-Shelby.jpg"
           },
@@ -23,9 +23,9 @@
             "status": "senator",
             "bio": "Jeff Sessions was born in Selma, Alabama in 1946. He first became a senator of Alabama in 1996. He had previously worked as Alabama's Attorney General from 1994 - 1996 and has also worked as an attorney.",
             "platforms": [
-              {"1" : "Anti-immigration (backed Trump's immigration platform"},
-              {"2" : "Pro-life"},
-              {"3" : "Supports harsh penalties for drug offenses"}
+              {"platform" : "Anti-immigration (backed Trump's immigration platform"},
+              {"platform" : "Pro-life"},
+              {"platform" : "Supports harsh penalties for drug offenses"}
             ],
             "image": "images/senators/AL-Jeff-Sessions.jpg"
           }
@@ -88,9 +88,9 @@
               "status": "incumbent",
               "bio": "Lisa Murkowski was born in 1957 and has been senator since 2002. She went to Georgetown University in 1980 and has practiced as an attorney.",
               "platforms": [
-                {"1" : "Against same-sex marriage"},
-                {"2" : "Against abortion"},
-                {"3" : "Supports gun ownership"}
+                {"platform" : "Against same-sex marriage"},
+                {"platform" : "Against abortion"},
+                {"platform" : "Supports gun ownership"}
               ],
               "image": "images/AK-Lisa-Murkowski.jpg"
             },
@@ -121,9 +121,9 @@
               "status": "incumbent",
               "bio": "John McCain was born in Panama in 1936 and has been a senator for 29 years. He gained name-recognition in 2008 when he ran for President of the US.",
               "platforms": [
-                {"1" : "Opposes Obamacare"},
-                {"2" : "Against abortion"},
-                {"3" : "Strongly favors harsher punishments for crime"}
+                {"platform" : "Opposes Obamacare"},
+                {"platform" : "Against abortion"},
+                {"platform" : "Strongly favors harsher punishments for crime"}
               ],
               "image": "images/senators/AR-John-McCain.jpg"
             },
@@ -181,9 +181,9 @@
               "status": "incumbent",
               "bio": "John Boozman was born in 1950. He began his term as a senator in 2011, and had previously held offices include the House of Representatives from 2001 to 2011. He also works as an optometrist.",
               "platforms": [
-                {"1" : "Favors military expansion"},
-                {"2" : "Supports privatizing Social Security"},
-                {"3" : "Against legalizing marijuana"}
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Supports privatizing Social Security"},
+                {"platform" : "Against legalizing marijuana"}
               ],
               "image": "images/senators/AR-John-Boozman.jpg"
             },
@@ -241,9 +241,9 @@
               "status": "retiring",
               "bio": "Barbara Boxer assumed office in 1993. She was born in Brooklyn, NY in 1940. She plans on continuing her work with important issues after she retires in 2016.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Against absolute gun ownership"},
-                {"3" : "Supports same-sex marriage"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
               ],
               "image": "images/senators/CA-Barbara-Boxer.jpg"
             },
@@ -357,9 +357,9 @@
               "status": "incumbent",
               "bio": "Michael Bennet was born in New Delhi, India in 1964. He became senator in 2009 and graduated from Yale Law School in 1993 ",
               "platforms": [
-                {"1" : "Supports Obamacare"},
-                {"2" : "Favors higher taxes on the wealthy"},
-                {"3" : "Opposes marijuana legalization"}
+                {"platform" : "Supports Obamacare"},
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes marijuana legalization"}
               ],
               "image": "images/senators/CO-Michael-Bennet.jpg"
             },
@@ -466,9 +466,9 @@
               "status": "incumbent",
               "bio": "Richard Blumenthal was born in 1946 in Brooklyn, New York. He served in the Marines from 1970 - 1976. He held several other offices before being elected as senator in 2011, including Connecticut Attorney General from 1991 - 2011, and as a Connecticut State Senator from 1987 to 1991.",
               "platforms": [
-                {"1" : "Favors higher taxes on the wealthy"},
-                {"2" : "Opposes Social Security privatization"},
-                {"3" : "Opposes gun ownership"}
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes Social Security privatization"},
+                {"platform" : "Opposes gun ownership"}
               ],
               "image": "images/senators/CT-Richard-Blumenthal.jpg"
             },
@@ -505,9 +505,9 @@
               "status": "senator",
               "bio": "Chris Coons sbecame a senator in 2010. He attended Yale Law School in 1992. He was appointed to the Appropriations Committee in 2013",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Opposes military expansion"},
-                {"3" : "Favors Obamacare"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Opposes military expansion"},
+                {"platform" : "Favors Obamacare"}
               ],
               "image": "images/senators/DE-Chris-Coons.jpg"
             },
@@ -538,9 +538,9 @@
               "status": "retiring",
               "bio": "Marc Rubio became a senator in 2011. He was born in 1971 in Miami and Graduated from the University of Miami's Law School in 1996. He served in Florida House of Representatives from 2000 to 2008 and he's currently running for President.",
               "platforms": [
-                {"1" : "Strongly pro-life"},
-                {"2" : "Opposes Obamacare"},
-                {"3" : "Strong Second Amendment advocate"}
+                {"platform" : "Strongly pro-life"},
+                {"platform" : "Opposes Obamacare"},
+                {"platform" : "Strong Second Amendment advocate"}
               ],
               "image": "images/senators/FL-Marc-Rubio.jpg"
             },
@@ -640,9 +640,9 @@
               "status": "incumbent",
               "bio": "Johnny Isakson became senator in 2005 after serving in the House of Representatives from 1999 - 2004. He was born in Atlanta in 1944 and served in the Georgia Air National Guard from 1966 to 1972.",
               "platforms": [
-                {"1" : "Favors supporting and expanding free trade"},
-                {"2" : "Favors Social Security privatization"},
-                {"3" : "Opposes higher taxes on the wealthy"}
+                {"platform" : "Favors supporting and expanding free trade"},
+                {"platform" : "Favors Social Security privatization"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
               ],
               "image": "images/senators/GA-Johnny-Isakson.jpg"
             },
@@ -679,9 +679,9 @@
               "status": "incumbent",
               "bio": "Brian Schatz was born in Michigan in 1972 and was elected a senator in 2010. He had previously served as the Lieutenant Governor of Hawaii from 2010 - 2012 and in the Hawaii House of Representatives from 1998 - 2006.",
               "platforms": [
-                {"1" : "Favors higher taxes on the wealthy"},
-                {"2" : "Opposes Social Security privatization"},
-                {"3" : "Supports gun control"}
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes Social Security privatization"},
+                {"platform" : "Supports gun control"}
               ],
               "image": "images/senators/HI-Brian-Schatz.jpg"
             },
@@ -721,9 +721,9 @@
               "status": "incumbent",
               "bio": "Mike Crapo was born in Idaho in 1951. He served in the US House of Representatives from 1993 - 1999 and was elected senator in 1999. He graduated Harvard Law School in 1977 and has practiced law.",
               "platforms": [
-                {"1" : "Opposes Obamacare expansion"},
-                {"2" : "Against same-sex marriage"},
-                {"3" : "Supports military expansion"}
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Against same-sex marriage"},
+                {"platform" : "Supports military expansion"}
               ],
               "image": "images/senators/ID-Mike-Crapo.jpg"
             }
@@ -745,9 +745,9 @@
               "status": "incumbent",
               "bio": "Mark Kirk served in the US House of Representatives from 2001 to 2010 before becoming a senator in 2011. He was born in Illinois and works as an attorney and Commander in U.S. Navy Reserve.",
               "platforms": [
-                {"1" : "Favors keeping God in public sphere"},
-                {"2" : "Against absolute right to gun ownership"},
-                {"3" : "Opposes higher taxes on the wealthy"}
+                {"platform" : "Favors keeping God in public sphere"},
+                {"platform" : "Against absolute right to gun ownership"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
               ],
               "image": "images/senators/IL-Mark-Kirk.jpg"
             },
@@ -810,7 +810,12 @@
               "lastName": "Coats",
               "party": "Republican",
               "status": "retiring",
-              "bio": "",
+              "bio": "Dan Coats was born in 1943 in Michigan. He earned a law degree from Indiana University School of Law in 1971 after serving in the arm from 1966 to 1968. He has held an office in the House of Representatives from 1981 to 1988 and in the US Senate from 1989 - 1999. He was re-elected as a senator in 2010 and is retiring this year.",
+              "platforms": [
+                {"platform": "Opposes Obamacare expansion"},
+                {"platform": "Pro-life"},
+                {"platform": "Supports military expansions`"}
+              ],
               "image": "images/senators/IN-Dan-Coats.jpg"
             },
             {
@@ -819,6 +824,7 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
+              "platforms": [],
               "image": "images/senators/IN-Joe-Donnelly.jpg"
             }
     ],
@@ -866,9 +872,9 @@
               "status": "incumbent",
               "bio": "Chuck Grassley has been a senator for 35 years. He previously held a position as a US Representative from 1975 - 1981. He was born in Iowa in 1933.",
               "platforms": [
-                {"1" : "Favors military expansion"},
-                {"2" : "Supports privatization of Social Security"},
-                {"3" : "Against same-sex marriage"}
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Supports privatization of Social Security"},
+                {"platform" : "Against same-sex marriage"}
               ],
               "image": "images/senators/IA-Chuck-Grassley.jpg"
             },
@@ -919,9 +925,9 @@
               "status": "incumbent",
               "bio": "Jerry Moran was born in Kansas in 1954. He has been a senator for 5 years and had previously served as a US Representative from 1997 to 2011 and on the Kansas State Senate from 1989 to 1997.",
               "platforms": [
-                {"1" : "Opposes abortion rights"},
-                {"2" : "Supports absolute gun ownership"},
-                {"3" : "Opposed staying out of Iran"}
+                {"platform" : "Opposes abortion rights"},
+                {"platform" : "Supports absolute gun ownership"},
+                {"platform" : "Opposed staying out of Iran"}
               ],
               "image": "images/senators/KS-Jerry_Moran.jpg"
             },
@@ -931,7 +937,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "platorms": [],
+              "platforms": [],
               "image": "images/senators/KS-Pat-Roberts.jpg"
             }
     ],
@@ -952,9 +958,9 @@
               "status": "incumbent",
               "bio": "Rand Paul was born in 1963 in Pittsburgh. He graduated from Duke University with a medical degree and works as an ophthalmologist. He was first elected as a senator in 2010.",
               "platforms": [
-                {"1" : "Opposes military expansion"},
-                {"2" : "Favors staying out of Iran"},
-                {"3" : "Supports legalization of hemp."}
+                {"platform" : "Opposes military expansion"},
+                {"platform" : "Favors staying out of Iran"},
+                {"platform" : "Supports legalization of hemp."}
               ],
               "image": "images/senators/KY-Rand-Paul.jpg"
             },
@@ -1047,9 +1053,9 @@
               "status": "retiring",
               "bio": "David Vitter was born in New Orleans in 1961. He held a position in the Louisiana State House of Representatives from 1992 to 1999 and in the US House of Representatives from 1999 to 2005. He was elected as a senator in 2005.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Against immigration"},
-                {"3" : "Opposes higher taxes on wealthy"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against immigration"},
+                {"platform" : "Opposes higher taxes on wealthy"}
               ],
               "image": "images/senators/LA-David-Vitter.jpg"
             },
@@ -1157,9 +1163,9 @@
               "status": "retiring",
               "bio": "Barbara Mikulski was born in Baltimore. She has served as a senator for 29 years, and worked for 10 years in the US House of Representatives prior to being a senator. She was a social worker before she became a politician.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Against absolute gun ownership"},
-                {"3" : "Supports same-sex marriage"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
               ],
               "image": "images/senators/MD-Barbara_Mikulski.jpg"
             },
@@ -1457,13 +1463,7 @@
     "contested": false,
     "controllingParty": "Democrat",
     "challengers": [
-      {
-        "firstName": "Darryl",
-        "lastName": "Glenn",
-        "party": "Republican",
-        "bio": "",
-        "image": ""
-      }
+      { }
     ]
   },
   {
@@ -1535,9 +1535,9 @@
               "status": "incumbent",
               "bio": "Roy Blunt was born in 1950. He served as a US Representative from 1996 - 2008 and was elected a senator in 2011.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Against absolute gun ownership"},
-                {"3" : "Supports same-sex marriage"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
               ],
               "image": "images/senators/MO-Roy_Blunt.jpg"
             },
@@ -1646,9 +1646,9 @@
               "status": "retiring",
               "bio": "Harry Reid was born in 1939. He has been a senator for 29 years and has worked as a lawyer.",
               "platforms": [
-                {"1" : "Pro-life"},
-                {"2" : "Favors prioritizing green energy"},
-                {"3" : "Supports legalization of marijuana"}
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors prioritizing green energy"},
+                {"platform" : "Supports legalization of marijuana"}
               ],
               "image": "images/senators/NV-Harry_Reid.jpg"
             },
@@ -1692,9 +1692,9 @@
               "status": "incumbent",
               "bio": "Kelly Ayotte was born in 1968. She got her law degree from Villanova University and has worked as a lawyer. She became a senator in 2011 and had previously served as New Hampshire's Attorney General from 2004 - 2009.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Opposes Obamacare expansion"},
-                {"3" : "Supports harsher punishment for crimes"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Supports harsher punishment for crimes"}
               ],
               "image": "images/senators/NH-Kelly_Ayotte.jpg"
             },
@@ -1789,9 +1789,9 @@
               "status": "incumbent",
               "bio": "Check Schumer was born in 1950. He earned his Bachelor and Law degree from Harvard University. He became a senator in 1999 and had served in several other political offices before then, including US house of Representatives from New York's 9th District from 1993 - 1999.",
               "platforms": [
-                {"1" : "Supports oversight of Iran's nuclear program"},
-                {"2" : "Supports cyber security act"},
-                {"3" : "Against completion of fence between US and Mexico"}
+                {"platform" : "Supports oversight of Iran's nuclear program"},
+                {"platform" : "Supports cyber security act"},
+                {"platform" : "Against completion of fence between US and Mexico"}
               ],
               "image": "images/senators/NY-Chuck_Schumer.jpg"
             },
@@ -1822,9 +1822,9 @@
               "status": "incumbent",
               "bio": "Richard Burr was born in Charlottesville, Virginia. He worked as a sales executive and went to Wake Forest for his Bachelor's degree. He became a senator in 2005.",
               "platforms": [
-                {"1" : "Against Obamacare expansion"},
-                {"2" : "Favors absolute gun ownership"},
-                {"3" : "Supports military expansion"}
+                {"platform" : "Against Obamacare expansion"},
+                {"platform" : "Favors absolute gun ownership"},
+                {"platform" : "Supports military expansion"}
               ],
               "image": "images/senators/NC-Richard_Burr.jpg"
             },
@@ -1910,9 +1910,9 @@
               "status": "incumbent",
               "bio": "John Hoeven was born in 1957. He worked as a banking executive before his career as a politician. He became a senator in 2011.",
               "platforms": [
-                {"1" : "Pro-choice"},
-                {"2" : "Against absolute gun ownership"},
-                {"3" : "Supports same-sex marriage"}
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
               ],
               "image": "images/senators/ND-John_Hoeven.jpg"
             },
@@ -1949,9 +1949,9 @@
               "status": "incumbent",
               "bio": "Rob Portman was born in Cincinatti in 1955. He went to Darmouth College for his Bachelor's Degree and he graduated from University of Michigan Law School in 1984. He held several other political positions (including servering as a US Representative from 1993 - 2005), before becoming a senator in 2011.",
               "platforms": [
-                {"1" : "Supports completition of fence between Mexico and USA"},
-                {"2" : "Opposes higher taxes on the wealthy"},
-                {"3" : "Supports military expansion"}
+                {"platform" : "Supports completition of fence between Mexico and USA"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Supports military expansion"}
               ],
               "image": "images/senators/OH-Rob_Portman.jpg"
             },
@@ -2030,9 +2030,9 @@
               "status": "incumbent",
               "bio": "James Lankford was born in Texas. He has worked as a Youth Camp Director and obtained a Master's degree from Southwestern Baptist Theological Seminary. He became a senator in 2015.",
               "platforms": [
-                {"1" : "Pro-life"},
-                {"2" : "Supports absolute gun ownership"},
-                {"3" : "Against same-sex marriage"}
+                {"platform" : "Pro-life"},
+                {"platform" : "Supports absolute gun ownership"},
+                {"platform" : "Against same-sex marriage"}
               ],
               "image": "images/senators/OK-James_Lankford.jpg"
             },
@@ -2063,9 +2063,9 @@
               "status": "incumbent",
               "bio": "Ron Wyden was born in Kansas in 1949. He graduated from Stanford University with a Bachelor's degree in Political Science in 1971. He held an office in the US House of Representatives from 1981 - 1996 and became a senator in 1996.",
               "platforms": [
-                {"1" : "Pro-immigration"},
-                {"2" : "Supports green energy prioritization"},
-                {"3" : "Supports marijuana legalization"}
+                {"platform" : "Pro-immigration"},
+                {"platform" : "Supports green energy prioritization"},
+                {"platform" : "Supports marijuana legalization"}
               ],
               "image": "images/senators/OR-Ron_Wyden.jpg"
             },
@@ -2102,9 +2102,9 @@
               "status": "incumbent",
               "bio": "Pat Toomey was born in Rhode Island. He became a senator in 2011 and has a valued net worth of $2,977,025.",
               "platforms": [
-                {"1" : "pro-life"},
-                {"2" : "Opposes higher taxes on the wealthy."},
-                {"3" : "Supports privatization of Social Security"}
+                {"platform" : "pro-life"},
+                {"platform" : "Opposes higher taxes on the wealthy."},
+                {"platform" : "Supports privatization of Social Security"}
               ],
               "image": "images/senators/PA-Pat_Toomey.jpg"
             },
@@ -2191,9 +2191,9 @@
               "status": "incumbent",
               "bio": "Tim Scott was born in 1965. He graduated Charleston Southern University in 1988 with a Bachelor's Degree and held several political offices (including serving as a Representative in SC House of Representatives) before becoming a senator in 2013.",
               "platforms": [
-                {"1" : "Against legal requirements for hiring women and minorities"},
-                {"2" : "Pro-life"},
-                {"3" : "Favors military expansion"}
+                {"platform" : "Against legal requirements for hiring women and minorities"},
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors military expansion"}
               ],
               "image": "images/senators/SC-Tim_Scott.jpeg"
             },
@@ -2224,9 +2224,9 @@
               "status": "incumbent",
               "bio": "John Thune was born in 1961. He was a US Representatives from 1997 to 2003 and became a senator in 2005.",
               "platforms": [
-                {"1" : "Pro-life"},
-                {"2" : "Against higher taxes on the wealthy"},
-                {"3" : "Against marijuana legalization"}
+                {"platform" : "Pro-life"},
+                {"platform" : "Against higher taxes on the wealthy"},
+                {"platform" : "Against marijuana legalization"}
               ],
               "image": "images/senators/SD-John_Thune.jpg"
             },
@@ -2236,7 +2236,7 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "plaforms": [],
+              "platforms": [],
               "image": "images/senators/SD-Mike_Rounds.jpg"
             }
     ],
@@ -2315,9 +2315,9 @@
               "status": "incumbent",
               "bio": "Mike Lee was born in Arizona in 1971. He got a law degree from Brigham Young University School of Law. He has been a senator since 2011.",
               "platforms": [
-                {"1" : "Supports completition of fence between Mexico and the United States"},
-                {"2" : "Opposes Obamacare expansion"},
-                {"3" : "Opposes higher taxes on the wealthy"}
+                {"platform" : "Supports completition of fence between Mexico and the United States"},
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
               ],
               "image": "images/senators/UT-Mike_Lee.jpg"
             },
@@ -2348,9 +2348,9 @@
               "status": "incumbent",
               "bio": "Patrick Leahy was born in 1940. He has been a senator for 41 years and was been President pro tempore of the Senate from 2012 - 2015.",
               "platforms": [
-                {"1" : "Pro-life"},
-                {"2" : "Favors Obamacare expansion"},
-                {"3" : "Favors higher taxes on the wealthy"}
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors Obamacare expansion"},
+                {"platform" : "Favors higher taxes on the wealthy"}
               ],
               "image": "images/senators/VT-Patrick_Leahy.jpg"
             },
@@ -2410,9 +2410,9 @@
               "status": "incumbent",
               "bio": "Patty Muray was born in 1950. She got her Bachelor's degree from Washington State University and has been a senator since 1993.",
               "platforms": [
-                {"1" : "Against keeping God in the public sphere"},
-                {"2" : "Favors military expansion"},
-                {"3" : "Favors same-sex marriage"}
+                {"platform" : "Against keeping God in the public sphere"},
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Favors same-sex marriage"}
               ],
               "image": "images/senators/WA-Patty_Murray.jpg"
             },
@@ -2478,9 +2478,9 @@
               "status": "incumbent",
               "bio": "Ron Johnson was born in 1955 in Minnesota. He became a senator in 2010 and previously worked as an accountant and businessman.",
               "platforms": [
-                {"1" : "Pro-life"},
-                {"2" : "Opposes higher taxes on the wealthy"},
-                {"3" : "Supports gun rights"}
+                {"platform" : "Pro-life"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Supports gun rights"}
               ],
               "image": "images/senators/WI-Ron_Johnson.jpg"
             },
