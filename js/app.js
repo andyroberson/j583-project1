@@ -5,6 +5,7 @@ app.controller('BaseController', ['$http', function($http) {
     this.message = "Ready";
 
     this.states = [];
+    this.hasBlueClass = false;
 
     var _this = this;
 
@@ -16,6 +17,7 @@ app.controller('BaseController', ['$http', function($http) {
         .error(function(msg) {
           console.log("this request failed.\n" + msg);
         });
+
 
 this.infoBox = function(state) {
   //if state name is clicked, show state info
@@ -30,6 +32,10 @@ this.infoBox = function(state) {
 
       //controlling party
       console.log("Controlling Party: " + this.states[i].controllingParty);
+
+      /*if (this.states[i].controllingParty === "Democrat") {
+        this.hasBlueClass = true;
+      } QUESTION- how to add blue class without adding it to everything? should i do style instead? add ID*/
 
       /*loop for printing senator info
       for (var j = 0; j < this.states[i].senators.length; j++) {
@@ -48,6 +54,7 @@ this.infoBox = function(state) {
     if (this.states[i].contested == true) {
       //only need to print challengers if this state is contested
       console.log("This state is contested");
+      //if contested, add color / highlight? / border?
 
       //if there the challengers array is empty there are no challengers
       if (this.states[i].challengers[0] === undefined) {
@@ -140,7 +147,7 @@ this.generateInfoBox = function(){
   console.log(this.chosenState);
 }*/
 
-}]);
+]);
 
 /* other to do :
 

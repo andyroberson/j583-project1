@@ -15,3 +15,7 @@ ul li {
   display: inline-block;
   overflow: hidden;
 }
+
+.blue {
+  background: blue;
+}

@@ -29,21 +29,21 @@
                 </div>
             </div-->
         <div class="row text-center">
-          <h1>2016 Senate Race</h1>
+        <h1>2016 Senate Race</h1>
         </div>
 
         <div class="row">
           <div class="col-sm-1 hidden-xs"></div>
           <div ng-class="{'col-lg-7 col-md-7 col-xs-7':main.isBoxOpen, 'col-lg-12 col-md-12 col-xs-12':!main.isBoxOpen}">
             <ul class="state-table">
-                  <li ng-repeat="state in base.states" ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
+                  <li ng-class="{blue: base.hasBlueClass}" ng-repeat="state in base.states" ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
             </ul>
           </div>
           <div class="col-sm-1 hidden-xs"></div>
         </div>
         <div class="clicked-state" id="stateInfo">
-        <!-- function for matching correct state to clicked div thing
-        modal thing here????-->
+        <div id="image"></div>
+        <div id="bio"></div>
         </div>
         <div class="test-state" style="width: 275px; border: 1px solid #000; height: 300px; padding: 10px;">
           <h1 class="text-center">Alabama</h1>
@@ -58,6 +58,38 @@
           <b>Biography</b>: Blah
           <b>Platform Points</b>: Blah
         </div>
+
+        <div class="col-xs-12">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th ng-click="base.setSort('first')">First Name <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('last')">Last Name <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('position')">Position <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('games')">Games <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('points')">Points <i class="fa fa-sort"></i></th>
+                        <!--th ng-click="base.setSort('shootingPercent')">Shooting Percentage <i class="fa fa-sort"></i></th-->
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="player in base.players | filter:terms | orderBy:base.sort:base.direction">
+                        <td><img ng-src="{{player.images[0]}}" height="100" width="100" border="0"/></td>
+                        <td>{{ player.first }}</td>
+                        <td>{{ player.last }}</td>
+                        <td>{{ player.position }}</td>
+                        <td>{{ player.games }}</td>
+                        <td>{{ player.points }}</td>
+                        <!--td>{{ base.shootingPercentage('points', 'fieldGoalsAttempted', 'freeThrowsAttempted') }}</td-->
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+
+<!--        $( "p" ).last().addClass( "selected" );-->
+
+        <!--
         <div class="display" ng-app="ngAnimate">
             <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide">
             <br/>
@@ -69,15 +101,14 @@
             </div>
         </div>
         <div class="container">
-          <h2>Modal Example</h2>
-          <!-- Trigger the modal with a button -->
+          <h2>Modal Example</h2>-->
+          <!-- Trigger the modal with a button
           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
-          <!-- Modal -->
           <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
 
-              <!-- Modal content-->
+
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -94,7 +125,7 @@
             </div>
           </div>
 
-        </div>
+        </div>-->
 
     </body>
 </html>
