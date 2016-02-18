@@ -1,7 +1,7 @@
 
 
 /*styling for map table*/
-ul.state-table {
+.state-table {
   width: 600px;
   overflow: hidden;
   margin-left: auto;
@@ -12,10 +12,40 @@ ul.state-table li {
   border: 1px solid #000;
   width: 50px;
   height: 50px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
   display: inline-block;
   overflow: hidden;
 }
 
-.blue {
-  background: blue;
+ul.state-table li:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+.key-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dem {
+  color: blue;
+}
+
+.rep {
+  color: red;
+}
+
+.both {
+  color: purple;
+}
+
+.other {
+  color: gray;
+}
+
+.contested {
+  box-shadow: 0px 0px 10px green;
+  color: white;
 }

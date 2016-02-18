@@ -19,58 +19,82 @@
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+        <!--map css
         <link rel="stylesheet" href="stately-master/assets/css/screen.css?v=1.0">
-        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0">
+        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0"> -->
 
     </head>
 
     <body ng-app="myApp">
         <div class="container" ng-controller="BaseController as base">
-        <div class="map-test">
+        <!--TO SHOW MAP, UNCOMMENT MAP STYLESHEETS IN ADDITION TO THIS-->
+        <!--div class="map-test">
           <ul class="stately" id="plain">
 
-          <!--map that only shows wyoming right now-->
         		<li ng-repeat="state in base.states"
                 ng-style="{'color': base.getStateColor(state.state)}"
-                ng-class="[base.getClass(state.state)]"
-                ng-click="base.infoBox(state.state)">
-              <span>{{state.letter}}</span>
+                ng-class="[base.getClass(state.state)]">
+              <span ng-click="base.infoBox(state.state)">{{state.letter}}</span>
             </li>
           </ul>
-        </div>
+        </div-->
+
         <div class="row text-center">
         <h1>2016 Senate Race</h1>
         </div>
-
+        <div class="row text-center">
+          <div class="col-xs-1"></div>
+          <div class="col-md-10 col-xs-10">
+            <div class="key" style="min-width: 300px; height: auto; margin-left: auto; margin-right: auto;">
+              <b>Key:</b>
+              <span class="key-item"><i class="fa fa-square dem"></i> Democrat</span>
+              <span class="key-item"><i class="fa fa-square rep"></i> Republican</span>
+              <span class="key-item"><i class="fa fa-square both"></i> Both</span>
+              <span class="key-item"><i class="fa fa-square other"></i> Other</span>
+              <span class="key-item"><i class="fa fa-square contested"></i> Contested</span>
+            </div>
+          </div>
+          <div class="col-xs-1"></div>
+      </div>
 
         <div class="row">
           <div class="col-sm-1 hidden-xs"></div>
           <div class="col-sm-10 col-xs-12">
             <!--grid that works!-->
             <ul class="state-table">
-                  <li ng-repeat="state in base.states"
+                  <li class="text-center"
+                  ng-repeat="state in base.states"
                   ng-style="{'background-color': base.getStateColor(state.state)}"
-                  ng-click="base.infoBox(state.state)" />{{ state.state }}</li>
+                  ng-click="base.infoBox(state.state)"/>{{ state.abbreviation | uppercase }}</li>
             </ul>
           </div>
           <div class="col-sm-1 hidden-xs"></div>
         </div>
+
+        <!--senator info from clicking on the grid goes here-->
         <div class="clicked-state" id="stateInfo">
-        <div id="image"></div>
-        <div id="bio"></div>
+              <div id="image"></div>
+              <div id="bio"></div>
         </div>
-        <div class="test-state" style="width: 275px; border: 1px solid #000; height: 300px; padding: 10px;">
-          <h1 class="text-center">Alabama</h1>
-          <div class="image-container">
-              <img src="images/senators/AK-Daniel-Sullivan.jpg" style="border-radius: 100px; float: left; width: 70px; height: auto"/>
-                <div class="right" style="float: right">
-                  <b>Name name</b><br>
-                  <b>Retiring</b>
-                  <br>Party: Democrat
-                </div>
-          </div>
-          <b>Biography</b>: Blah
-          <b>Platform Points</b>: Blah
+
+        <div class="row">
+            <div class="test-state" style="width: 490px; border: 1px solid #000; height: auto; padding: 10px; margin-left: auto; margin-right: auto;">
+              <h1 class="text-center">Alabama</h1>
+              <div class="image-container" style="width:225px;height:125px; margin-left: auto; margin-right:auto;">
+                  <img src="images/senators/AK-Daniel-Sullivan.jpg" style="border-radius: 100px; float: left; width: 70px; height: auto"/>
+                    <div class="right" style="float: left; padding: 20px">
+                      <b>Name name</b><br>
+                      <b>Retiring</b>
+                      <br>Party: Democrat
+                    </div>
+              </div>
+              <div class="bio" style="width:">
+                  <b>Biography</b>: Blah
+                  <br><b>Platform Points</b>: Blah
+              </div>
+            </div>
         </div>
 
         <div class="col-xs-12">
@@ -79,10 +103,9 @@
                       <tr>
                         <th>State</th>
                         <th ng-click="base.setSort('first')">Status<i class="fa fa-sort"></i></th>
-                          <th ng-click="base.setSort('last')">Controlling party <i class="fa fa-sort"></i></th>
+                        <th ng-click="base.setSort('last')">Controlling party <i class="fa fa-sort"></i></th>
                         <th ng-click="base.setSort('position')">Senators <i class="fa fa-sort"></i></th>
                         <th ng-click="base.setSort('games')">Challengers <i class="fa fa-sort"></i></th>
-                        <!--th ng-click="base.setSort('shootingPercent')">Shooting Percentage <i class="fa fa-sort"></i></th-->
                       </tr>
                     </thead>
                     <tbody>
@@ -112,7 +135,7 @@
                   </table>
                 </div>
 
-
+</div>
 <!--        $( "p" ).last().addClass( "selected" );-->
 
         <!--
