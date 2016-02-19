@@ -15,32 +15,19 @@
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/infobox.js"></script>
 
-
+        <!--map css-->
+        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0">
 
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
-        <!--map css
-        <link rel="stylesheet" href="stately-master/assets/css/screen.css?v=1.0">
-        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0"> -->
-
     </head>
 
     <body ng-app="myApp">
         <div class="container" ng-controller="BaseController as base">
         <!--TO SHOW MAP, UNCOMMENT MAP STYLESHEETS IN ADDITION TO THIS-->
-        <!--div class="map-test">
-          <ul class="stately" id="plain">
-
-        		<li ng-repeat="state in base.states"
-                ng-style="{'color': base.getStateColor(state.state)}"
-                ng-class="[base.getClass(state.state)]">
-              <span ng-click="base.infoBox(state.state)">{{state.letter}}</span>
-            </li>
-          </ul>
-        </div-->
 
         <div class="row text-center">
         <h1>2016 Senate Race</h1>
@@ -48,6 +35,7 @@
         <div class="row text-center">
           <div class="col-xs-1"></div>
           <div class="col-md-10 col-xs-10">
+            <div class="title"><b>Map of Controlling Senate Parties</b></div>
             <div class="key" style="min-width: 300px; height: auto; margin-left: auto; margin-right: auto;">
               <b>Key:</b>
               <span class="key-item"><i class="fa fa-square dem"></i> Democrat</span>
@@ -60,10 +48,22 @@
           <div class="col-xs-1"></div>
       </div>
 
-        <div class="row">
+     <!--map-->
+      <div class="map-test">
+        <ul class="stately" id="plain">
+
+          <li ng-repeat="state in base.states"
+              ng-style="base.getMapColor(state.state)"
+              ng-class="[base.getClass(state.state)]">
+                {{state.letter}}
+          </li>
+        </ul>
+      </div>
+
+       <!-- i hate to completely remove this grid wah-->
+        <!--<div class="row">
           <div class="col-sm-1 hidden-xs"></div>
           <div class="col-sm-10 col-xs-12">
-            <!--grid that works!-->
             <ul class="state-table">
                   <li class="text-center"
                   ng-repeat="state in base.states"
@@ -72,105 +72,37 @@
             </ul>
           </div>
           <div class="col-sm-1 hidden-xs"></div>
-        </div>
+        </div>-->
 
+        <!--search bar here; allows users to filter results by states or senators -->
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6" style="text-align: center;margin-left: auto; margin-right: auto;">
+             <ul class="nav navbar-nav text-center" style="display: inline-block;">
+                 <input type="text" ng-model="terms" class="form-control"
+                 style="width: 400px; margin-left: auto; margin-right: auto; margin:15px;"
+                 placeholder="Search for a state or senator to filter your results" />
+             </ul>
+       </div>
+       <div class="col-xs-3"></div>
 
+       <!--table of states here-->
        <div class="col-xs-12" ng-controller="InfoController as info">
-         <div class="panel-group" ng-repeat="state in info.states" ng-click="info.infoBox(state.state)">
+         <div class="panel-group" ng-repeat="state in info.states | filter:terms" ng-click="info.infoBox(state.state)">
            <div class="panel panel-default" >
              <div class="panel-heading" ng-style="base.getStateColor(state.state)">
                <h4 class="panel-title">
-                 <!--using abbreviation as ID because it has no spaces-->
+                 <!--using abbreviation as ID because unique and it has no spaces-->
                  <a data-toggle="collapse" href="#{{state.abbreviation}}">{{ state.state }}</a>
                </h4>
              </div>
              <div id="{{state.abbreviation}}" class="panel-collapse collapse">
-               <div class="panel-body">
-               </div>
-               <div class="panel-footer"></div>
              </div>
            </div>
          </div>
        </div>
 
-        <div class="col-xs-12">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th>State</th>
-                        <th ng-click="base.setSort('first')">Status<i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('last')">Controlling party <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('position')">Senators <i class="fa fa-sort"></i></th>
-                        <th ng-click="base.setSort('games')">Challengers <i class="fa fa-sort"></i></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr ng-repeat="state in base.states | filter:terms | orderBy:base.sort:base.direction">
-                        <td ng-click="base.infoBox(state.state)">{{ state.state }}</td>
-                        <td>{{ state.contested }}</td>
-                        <td>{{ state.controllingParty }}</td>
-                        <td>
-                          <div ng-style="{'background-color': base.getSenatorColor(state.senators[0])}" class="panel-group">
-                            <div class="panel panel-default">
-                              <div class="panel-heading">
-                                <h4 class="panel-title">
-                                  <a data-toggle="collapse" href=#{{state.senators[0].lastName}}>{{ state.senators[0].firstName }}</a>
-                                </h4>
-                              </div>
-                              <div id="{{state.senators[0].lastName}}" class="panel-collapse collapse">
-                                <div class="panel-body">Panel Body</div>
-                              </div>
-                            </div>
-                          </div>
-                      </td>
-                        <td>{{ player.games }}</td>
-                        <!--td>{{ base.shootingPercentage('points', 'fieldGoalsAttempted', 'freeThrowsAttempted') }}</td-->
-
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
 </div>
-<!--        $( "p" ).last().addClass( "selected" );-->
 
-        <!--
-        <div class="display" ng-app="ngAnimate">
-            <input type="checkbox" ng-model="checked" aria-label="Toggle ngHide">
-            <br/>
-            <div>
-              Show:
-              <div class="check-element animate-show" ng-show="checked">
-                <span class="glyphicon glyphicon-thumbs-up"></span> I show up when your checkbox is checked.
-              </div>
-            </div>
-        </div>
-        <div class="container">
-          <h2>Modal Example</h2>-->
-          <!-- Trigger the modal with a button
-          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
-          <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div>-->
 
     </body>
 </html>

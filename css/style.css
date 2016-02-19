@@ -61,3 +61,14 @@ ul.state-table li:hover {
 .state-contested {
   margin-top: 10px;
 }
+
+/*overriding map css*/
+
+.stately {
+  font-size: 700px;
+  width: 700px;
+}
+
+#plain {
+  background: none;
+}

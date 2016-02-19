@@ -17,15 +17,66 @@ app.controller('BaseController', ['$http', function($http) {
           console.log("this request failed.\n" + msg);
         });
 
+    this.getMapColor = function(state) {
+      for (var i = 0; i < this.states.length; i++) {
+
+        if (state === this.states[i].state) {
+
+               //if a state is Democrat
+               if (this.states[i].controllingParty == "Democrat") {
+                 //and contested
+                 if (this.states[i].contested) {
+                   return {"color": "blue"}
+                 }
+                 //if not contested
+                 else {
+                   return{"color": "blue", "opacity": ".5"}
+                 }
+               }
+
+               else if (this.states[i].controllingParty == "Republican") {
+                 if (this.states[i].contested) {
+                   return {"color": "red"}
+                 }
+                 else {
+                   return{"color": "red", "opacity": ".5"}
+                 }
+               }
+
+               else if (this.states[i].controllingParty == "tie") {
+                 if (this.states[i].contested) {
+                   return {"color": "purple"}
+                 }
+                 else {
+                   return{"color": "purple", "opacity": ".5"}
+                 }
+               }
+
+               else {
+                 if (this.states[i].contested) {
+                   return {"color": "gray"}
+                 }
+                 else {
+                   return{"color": "gray" , "opacity": ".5"}
+                 }
+               }
+        }
+      }
+    };
+
+    //for setting backgrounds of table elements
     this.getStateColor = function(state) {
           for (var i = 0; i < this.states.length; i++) {
 
             if (state === this.states[i].state) {
 
+                   //if a state is Democrat
                    if (this.states[i].controllingParty == "Democrat") {
+                     //and contested
                      if (this.states[i].contested) {
                        return {"background-color": "blue", "box-shadow": "0px 0px 10px green"}
                      }
+                     //if not contested
                      else {
                        return{"background-color": "blue"}
                      }
