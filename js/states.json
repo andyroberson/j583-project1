@@ -9,7 +9,7 @@
               "lastName": "Shelby",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "Shelby has been a senator for 29 years.He was born ing Birminham in 1934 and has held previous political offices in the U.S. House of Representatives (from 1789 - 1987) and Alabama State Senate from 1970 - 1978",
+              "bio": "Shelby has been a senator for 29 years.He was born in Birminham in 1934 and has held previous political offices in the U.S. House of Representatives (from 1789 - 1987) and Alabama State Senate from 1970 - 1978",
               "platforms": [
                 {"platform" :"Against gay marriage"},
                 {"platform" : "Opposes higher taxes on the wealthy"},
@@ -94,7 +94,7 @@
                 {"platform" : "Against abortion"},
                 {"platform" : "Supports gun ownership"}
               ],
-              "image": "images/AK-Lisa-Murkowski.jpg"
+              "image": "images/senators/AK-Lisa-Murkowski.jpg"
             },
             {
               "firstName": "Daniel S.",
@@ -102,8 +102,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "platforms": [ ],
-              "image": "images/AK-Daniel-Sullivan.jpg"
+              "platforms": [],
+              "image": "images/senators/AK-Daniel-Sullivan.jpg"
             }
     ],
     "contested": true,
@@ -126,7 +126,7 @@
                 {"platform" : "Against abortion"},
                 {"platform" : "Strongly favors harsher punishments for crime"}
               ],
-              "image": "images/senators/AR-John-McCain.jpg"
+              "image": "images/senators/AZ-John-McCain.jpg"
             },
             {
               "firstName": "Jeff",
@@ -135,7 +135,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/AR-Jeff-Flake.jpg"
+              "image": "images/senators/AZ-Jeff-Flake.jpg"
             }
     ],
     "contested": true,
