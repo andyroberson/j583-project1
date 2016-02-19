@@ -1,13 +1,21 @@
 var app = angular.module('myApp', []);
 
+//no space filter
+app.filter('nospace', function () {
+    return function (value) {
+        return (!value) ? '' : value.replace(/ /g, '');
+    };
+});
+
 app.controller('BaseController', ['$http', function($http) {
 
     this.message = "Ready";
 
     this.states = [];
-    this.hasBlueClass = false;
 
     var _this = this;
+
+    this.isContested = false;
 
     $http.get('js/states.json')
 
@@ -22,14 +30,58 @@ app.controller('BaseController', ['$http', function($http) {
           for (var i = 0; i < this.states.length; i++) {
 
             if (state === this.states[i].state) {
+
                    if (this.states[i].controllingParty == "Democrat") {
-                     return 'blue';
+                     if (this.states[i].contested) {
+                       return {"background-color": "blue", "box-shadow": "0px 0px 10px green"}
+                     }
+                     else {
+                       return{"background-color": "blue"}
+                     }
+                   }
+
+                   else if (this.states[i].controllingParty == "Republican") {
+                     if (this.states[i].contested) {
+                       return {"background-color": "red", "box-shadow": "0px 0px 10px green"}
+                     }
+                     else {
+                       return{"background-color": "red"}
+                     }
+                   }
+
+                   else if (this.states[i].controllingParty == "tie") {
+                     if (this.states[i].contested) {
+                       return {"background-color": "purple", "box-shadow": "0px 0px 10px green"}
+                     }
+                     else {
+                       return{"background-color": "purple"}
+                     }
                    }
 
                    else {
-                     return 'red';
+                     if (this.states[i].contested) {
+                       return {"background-color": "gray", "box-shadow": "0px 0px 10px green"}
+                     }
+                     else {
+                       return{"background-color": "gray"}
+                     }
                    }
             }
+          }
+      };
+
+
+      this.getBorderColor = function(state) {
+          for (var i = 0; i < this.states.length; i++) {
+              if (state === this.states[i].state) {
+                if(this.states[i].contested) {
+                   return '0px 0px 10px green';
+                }
+
+                else {
+                  break;
+                }
+              }
           }
       };
 
@@ -122,7 +174,7 @@ this.infoBox = function(state) {
 
       stateInfo += '<h3>' + this.states[i].state + 's Senator: ' + this.states[i].senators[0].firstName +  '</h3>';
 
-      document.getElementById("stateInfo").innerHTML = stateInfo;
+      document.getElementById(this.states[i].abbreviation).innerHTML = stateInfo;
 
       //need to make a loop that goes through all senators in the loop and prints out info for that senator.....
         //<img ng-src="{{image}}" />
