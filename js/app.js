@@ -26,38 +26,38 @@ app.controller('BaseController', ['$http', function($http) {
                if (this.states[i].controllingParty == "Democrat") {
                  //and contested
                  if (this.states[i].contested) {
-                   return {"color": "blue"}
+                   return {"color": "#6AB6EB"}
                  }
                  //if not contested
                  else {
-                   return{"color": "blue", "opacity": ".5"}
+                   return{"color": "#ABC8E4"}
                  }
                }
 
                else if (this.states[i].controllingParty == "Republican") {
                  if (this.states[i].contested) {
-                   return {"color": "red"}
+                   return {"color": "#CF5064"}
                  }
                  else {
-                   return{"color": "red", "opacity": ".5"}
+                   return{"color": "#E7A8B2"}
                  }
                }
 
                else if (this.states[i].controllingParty == "tie") {
                  if (this.states[i].contested) {
-                   return {"color": "purple"}
+                   return {"color": "#A78CB9"}
                  }
                  else {
-                   return{"color": "purple", "opacity": ".5"}
+                   return{"color": "#C9B8CB"}
                  }
                }
 
                else {
                  if (this.states[i].contested) {
-                   return {"color": "gray"}
+                   return {"color": "#817982"}
                  }
                  else {
-                   return{"color": "gray" , "opacity": ".5"}
+                   return{"color": "#ABA0A0"}
                  }
                }
         }
@@ -74,38 +74,38 @@ app.controller('BaseController', ['$http', function($http) {
                    if (this.states[i].controllingParty == "Democrat") {
                      //and contested
                      if (this.states[i].contested) {
-                       return {"background-color": "blue", "box-shadow": "0px 0px 10px green"}
+                       return {"background-color": "#7EB5EB"}
                      }
                      //if not contested
                      else {
-                       return{"background-color": "blue"}
+                       return{"background-color": "#ABC8E4"}
                      }
                    }
 
                    else if (this.states[i].controllingParty == "Republican") {
                      if (this.states[i].contested) {
-                       return {"background-color": "red", "box-shadow": "0px 0px 10px green"}
+                       return {"background-color": "#CF5064"}
                      }
                      else {
-                       return{"background-color": "red"}
+                       return{"background-color": "#E7A8B2"}
                      }
                    }
 
                    else if (this.states[i].controllingParty == "tie") {
                      if (this.states[i].contested) {
-                       return {"background-color": "purple", "box-shadow": "0px 0px 10px green"}
+                       return {"background-color": "#937197"}
                      }
                      else {
-                       return{"background-color": "purple"}
+                       return{"background-color": "#C9B8CB"}
                      }
                    }
 
                    else {
                      if (this.states[i].contested) {
-                       return {"background-color": "gray", "box-shadow": "0px 0px 10px green"}
+                       return {"background-color": "#817982"}
                      }
                      else {
-                       return{"background-color": "gray"}
+                       return{"background-color": "#ABA0A0"}
                      }
                    }
             }

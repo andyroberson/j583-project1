@@ -24,30 +24,87 @@ ul.state-table li:hover {
   opacity: .6;
 }
 
+/*color palette:
+dark blue - 653D94
+light blue - 5791C9
+
+dark red - 7D1606
+light red - CF5064
+
+dark purple - 5F3A8C
+light purple - 7D5DB8
+
+gray - C7E0D7
+*/
+.key-title {
+  background: black;
+  color: #fff;
+}
+.key {
+  border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:30px;
+}
+
 .key-item {
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.key-top {
+  margin-top:22px;
+}
+
+.uncontested-row {
+  margin-left: -33px;
+}
+
+@media (max-width: 700px) {
+  .key {width: 300px;margin-top:5px;}
+  .key-top {display:block;}
+  .contested-row{display:block;margin-bottom:-20px;}
+  .uncontested-row {margin-left:0;display:block;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:block;margin-top:-15px;}
+}
+
+.dem-contested {
+  color: #7EB5EB;
+}
+
 .dem {
-  color: blue;
+  color: #ABC8E4;
+}
+
+.rep-contested {
+  color: #CF5064;
 }
 
 .rep {
-  color: red;
+  color: #E7A8B2;
+}
+
+.both-contested {
+  color: #937197;
 }
 
 .both {
-  color: purple;
+  color: #C9B8CB;
 }
 
+.other-contested {
+  color: #817982;
+}
 .other {
-  color: gray;
+  color: #ABA0A0;
 }
 
-.contested {
-  box-shadow: 0px 0px 10px green;
-  color: white;
+.panel-group {
+  margin-bottom:0px;
 }
 
 .image {
@@ -67,6 +124,13 @@ ul.state-table li:hover {
 .stately {
   font-size: 700px;
   width: 700px;
+}
+
+@media (max-width: 700px) {
+  .stately {width: 300px;font-size:300px;}
+  h3 {
+    font-size: 1.2em;
+  }
 }
 
 #plain {

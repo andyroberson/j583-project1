@@ -21,29 +21,21 @@
         <!-- css -->
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/style.css" />
+
+        <!--used for key boxes-->
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
     </head>
 
     <body ng-app="myApp">
         <div class="container" ng-controller="BaseController as base">
-        <!--TO SHOW MAP, UNCOMMENT MAP STYLESHEETS IN ADDITION TO THIS-->
-
         <div class="row text-center">
         <h1>2016 Senate Race</h1>
         </div>
         <div class="row text-center">
           <div class="col-xs-1"></div>
           <div class="col-md-10 col-xs-10">
-            <div class="title"><b>Map of Controlling Senate Parties</b></div>
-            <div class="key" style="min-width: 300px; height: auto; margin-left: auto; margin-right: auto;">
-              <b>Key:</b>
-              <span class="key-item"><i class="fa fa-square dem"></i> Democrat</span>
-              <span class="key-item"><i class="fa fa-square rep"></i> Republican</span>
-              <span class="key-item"><i class="fa fa-square both"></i> Both</span>
-              <span class="key-item"><i class="fa fa-square other"></i> Other</span>
-              <span class="key-item"><i class="fa fa-square contested"></i> Contested</span>
-            </div>
+            <div class="title"><b>Map of Senate Party in Power</b></div>
           </div>
           <div class="col-xs-1"></div>
       </div>
@@ -60,30 +52,41 @@
         </ul>
       </div>
 
-       <!-- i hate to completely remove this grid wah-->
-        <!--<div class="row">
-          <div class="col-sm-1 hidden-xs"></div>
-          <div class="col-sm-10 col-xs-12">
-            <ul class="state-table">
-                  <li class="text-center"
-                  ng-repeat="state in base.states"
-                  ng-style="base.getStateColor(state.state)"
-                  ng-click="base.infoBox(state.state)"/>{{ state.abbreviation | uppercase }}</li>
-            </ul>
+      <div class="col-xs-12 text-center">
+        <div class="key">
+          <div class="key-title"<b class="text-center">Key:</b></div>
+          <br>
+          <div class="row">
+            <span class="contested-row">  CONTESTED:</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top dem-contested"></i> Democrat</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top rep-contested"></i> Republican</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top both-contested"></i> Both</span>
+            <span class="key-item other-key"><i class="fa fa-square fa-lg key-top other-contested"></i> Other</span>
           </div>
-          <div class="col-sm-1 hidden-xs"></div>
-        </div>-->
+          <div class="row">
+            <span class="uncontested-row">NOT CONTESTED:</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top dem"></i> Democrat</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top rep"></i> Republican</span>
+            <span class="key-item"><i class="fa fa-square fa-lg key-top both"></i> Both</span>
+            <span class="key-item other-key"><i class="fa fa-square fa-lg key-top other"></i> Other</span>
+          </div>
+        </div>
+      </div>
+
+      <!--table instructions-->
+      <div class="col-xs-12 text-center"><h3>Click on a state in the table below or use the search bar to filter your results to learn more information about current senators and candidates.</h3></div>
+
 
         <!--search bar here; allows users to filter results by states or senators -->
-        <div class="col-xs-3"></div>
-        <div class="col-xs-6" style="text-align: center;margin-left: auto; margin-right: auto;">
-             <ul class="nav navbar-nav text-center" style="display: inline-block;">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10" style="text-align: center;margin-left: auto; margin-right: auto;">
+             <div class="nav navbar-nav text-center" style="display: inline-block;width: 100%; ">
                  <input type="text" ng-model="terms" class="form-control"
-                 style="width: 400px; margin-left: auto; margin-right: auto; margin:15px;"
-                 placeholder="Search for a state or senator to filter your results" />
-             </ul>
+                 style="margin-left: auto; margin-right: auto;text-align:center;margin-top:15px;margin-bottom:15px;"
+                 placeholder="Search for a state or senator" />
+             </div>
        </div>
-       <div class="col-xs-3"></div>
+       <div class="col-xs-1"></div>
 
        <!--table of states here-->
        <div class="col-xs-12" ng-controller="InfoController as info">
