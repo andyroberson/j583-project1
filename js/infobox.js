@@ -1,12 +1,5 @@
   var app = angular.module('infoBox', []);
 
-  //no space filter used for setting classes
-  app.filter('nospace', function () {
-      return function (value) {
-          return (!value) ? '' : value.replace(/ /g, '');
-      };
-  });
-
     app.controller('InfoController', ['$http', function($http) {
 
         this.message = "Ready";
@@ -44,7 +37,7 @@
           stateInfo += '<div class="panel-body">';
           //loop for printing senator info
           for (var j = 0; j < this.states[i].senators.length; j++) {
-            stateInfo += '<div class="text-center col-md-6 col-sm-12 col-xs-12"><img src="../'+
+            stateInfo += '<div class="text-center senator col-md-6 col-sm-12 col-xs-12"><img src="../'+
             this.states[i].senators[j].image+'"class="image"/>';
             stateInfo += '<h3>Senator ' +
             this.states[i].senators[j].firstName + ' ' + this.states[i].senators[j].lastName + '</h3>';

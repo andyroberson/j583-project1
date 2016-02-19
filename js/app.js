@@ -1,5 +1,8 @@
 var app = angular.module('myApp', ['infoBox']);
 
+//infobox controls all data put into table
+
+//basecontroller controls colors for table / map and setting classes for map
 app.controller('BaseController', ['$http', function($http) {
 
     this.states = [];
@@ -17,6 +20,8 @@ app.controller('BaseController', ['$http', function($http) {
           console.log("this request failed.\n" + msg);
         });
 
+
+    //for setting map colors (needs to be different because style must be COLOR?=)
     this.getMapColor = function(state) {
       for (var i = 0; i < this.states.length; i++) {
 
@@ -112,18 +117,7 @@ app.controller('BaseController', ['$http', function($http) {
           }
       };
 
-      /*this.getSenatorColor = function(senator) {
-             if (this.states.senators[0].party == "Democrat") {
-               return 'blue';
-             }
-
-             else {
-               return 'red';
-             }
-          };*/
-
-
-
+/*get Class for map - map classes are state abbreviations*/
 this.getClass = function(state) {
   for (var i = 0; i < this.states.length; i++) {
     if (state === this.states[i].state) {

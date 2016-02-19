@@ -1,29 +1,3 @@
-
-
-/*styling for map table*/
-.state-table {
-  width: 600px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-}
-ul.state-table li {
-  margin: 2px;
-  border: 1px solid #000;
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
-  font-size: 20px;
-  color: #fff;
-  display: inline-block;
-  overflow: hidden;
-}
-
-ul.state-table li:hover {
-  cursor: pointer;
-  opacity: .6;
-}
-
 /*color palette:
 dark blue - 653D94
 light blue - 5791C9
@@ -36,15 +10,32 @@ light purple - 7D5DB8
 
 gray - C7E0D7
 */
+
+body {
+  font-family: "tahoma";
+}
+
+h1 {
+  font-family: "Times New Roman";
+  font-size: 3em;
+}
+
+.title {
+  font-family: "Times New Roman";
+  font-size: 1.5em;
+  margin-bottom: -5px;
+  margin-top: 5px;
+}
+
 .key-title {
   background: black;
   color: #fff;
 }
+
 .key {
   border: 1px solid #000;
   border-radius: 20px;
   overflow: hidden;
-  width: 600px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -62,6 +53,22 @@ gray - C7E0D7
 
 .uncontested-row {
   margin-left: -33px;
+}
+
+@media (max-width: 3000px) {
+  .key {width: 300px;margin-top:100px;margin-left: -20px;}
+  .key-top {display:block;}
+  .contested-row{display:block;margin-bottom:-20px;}
+  .uncontested-row {margin-left:0;display:block;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:block;margin-top:-15px;}
+}
+
+@media (max-width: 1199px) {
+  .key {margin-top: 0;width: 600px;display: inline-block;}
+  .key-top {display:inline;}
+  .contested-row{display:inline;margin-bottom:-20px;}
+  .uncontested-row {margin-left:-33px;display:inline;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:inline;margin-top:-15px;}
 }
 
 @media (max-width: 700px) {
@@ -103,10 +110,17 @@ gray - C7E0D7
   color: #ABA0A0;
 }
 
+/*styling for state table*/
+.state-table {
+ margin-bottom:50px;
+}
+
+/*to display panels with no spaces in between*/
 .panel-group {
   margin-bottom:0px;
 }
 
+/*rounded senator image*/
 .image {
   height:100px;
   width:auto;
@@ -119,20 +133,32 @@ gray - C7E0D7
   margin-top: 10px;
 }
 
+
 /*overriding map css*/
 
 .stately {
-  font-size: 700px;
-  width: 700px;
-}
-
-@media (max-width: 700px) {
-  .stately {width: 300px;font-size:300px;}
-  h3 {
-    font-size: 1.2em;
-  }
+  font-size: 600px;
+  width: 600px;
 }
 
 #plain {
   background: none;
+}
+
+@media (max-width: 700px) {
+  .stately {width: 300px;font-size:300px;}
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .senator {
+    margin-top: 10px;
+  }
+}
+
+.credits {
+  font-size: 10px;
+  color: #817982;
+  margin-bottom: 6px;
 }
