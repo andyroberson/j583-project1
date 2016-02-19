@@ -549,7 +549,7 @@
                 {"platform" : "Opposes Obamacare"},
                 {"platform" : "Strong Second Amendment advocate"}
               ],
-              "image": "images/senators/FL-Marc-Rubio.jpg"
+              "image": "images/senators/FL-MarcO-Rubio.jpg"
             },
             {
               "firstName": "Bill",
@@ -1154,7 +1154,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/ME-Susan-Collings.jpg"
+              "image": "images/senators/ME-Susan-Collins.jpg"
             }
     ],
     "contested": false,
@@ -1531,7 +1531,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/MS-Thad_Chochran.jpg"
+              "image": "images/senators/MS-Thad_Cochran.jpg"
             }
     ],
     "contested": false,
@@ -1565,7 +1565,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/MO-Claire-McCaskill.jpg"
+              "image": "images/senators/MO-Claire_McCaskill.jpg"
             }
     ],
     "contested": true,
@@ -1858,7 +1858,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/Thom_Tillis.jpg"
+              "image": "images/senators/NC-Thom_Tillis.jpg"
             }
     ],
     "contested": true,
@@ -2101,7 +2101,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/OR-Jeff_Markley.jpg"
+              "image": "images/senators/OR-Jeff_Merkley.jpg"
             }
     ],
     "contested": true,
@@ -2486,7 +2486,7 @@
               "status": "senator",
               "bio": "",
               "platforms": [],
-              "image": "images/senators/WV-Shelly_Moore.jpeg"
+              "image": "images/senators/WV-Shelley_Moore.jpeg"
             }
     ],
     "contested": false,

@@ -1,5 +1,11 @@
   var app = angular.module('infoBox', []);
 
+  //no space filter used for setting classes
+  app.filter('nospace', function () {
+      return function (value) {
+          return (!value) ? '' : value.replace(/ /g, '');
+      };
+  });
 
     app.controller('InfoController', ['$http', function($http) {
 
@@ -38,7 +44,6 @@
           stateInfo += '<div class="panel-body">';
           //loop for printing senator info
           for (var j = 0; j < this.states[i].senators.length; j++) {
-            console.log(this.states[i].senators[j].image);
             stateInfo += '<div class="text-center col-md-6 col-sm-12 col-xs-12"><img src="../'+
             this.states[i].senators[j].image+'"class="image"/>';
             stateInfo += '<h3>Senator ' +
@@ -66,50 +71,52 @@
 
         if (this.states[i].contested == true) {
           //only need to print challengers if this state is contested
-          console.log("This state is contested");
-          //if contested, add color / highlight? / border?
+          stateInfo += '<div class="col-xs-12 text-center state-contested">This state is contested!';
 
           //if there the challengers array is empty there are no challengers
           if (this.states[i].challengers[0] === undefined) {
-            console.log("As of February, there are no challengers to the incumbent!");
+            stateInfo += ' As of February, there are no challengers to the incumbent!</div>';
           }
 
           //otherwise, loop through the challengers array and print all challengers info
           else {
+            stateInfo += '<div class="col-xs-12">';
+              stateInfo += '<div class="panel-group">';
+                  stateInfo += '<div class="panel panel-default" >';
+                    stateInfo += '<div class="panel-heading">';
+                      stateInfo += '<h4 class="panel-title">';
+                      //giving it a unique ID that hasn't been used, applying filter of no spaces
+                        stateInfo += '<a data-toggle="collapse" href="#'+this.states[i].abbreviation+'2">Click to view challengers</a>';
+                      stateInfo += '</h4>';
+                    stateInfo += '</div>';
+                    //using abbreviations as id again and adding "2" to the end since abbreviations alone was already used
+                    stateInfo += '<div id="'+this.states[i].abbreviation+'2" class="panel-collapse collapse">';
+                  stateInfo += '<div class="panel-body"> '
             for (var j = 0; j < this.states[i].challengers.length; j++) {
-
-              console.log("Challenger #" + (j+1) + " " + this.states[i].challengers[j].firstName + " " + this.states[i].challengers[j].lastName);
-              console.log("Party: " + this.states[i].challengers[j].party);
-
+                        stateInfo += '<b>Challenger #' + (j+1) + ':</b> '+ this.states[i].challengers[j].firstName + ' ' + this.states[i].challengers[j].lastName;
+                        stateInfo += '<br><b>Party: </b>' + this.states[i].challengers[j].party +'<br>';
             }
+                  //end panel-body div after for loop because want all challengers repeated within panel body
+                  stateInfo += '</div>';
+                  //end panel-collapse
+                stateInfo += '</div>';
+                //end panel default
+              stateInfo += '</div>';
+              //end panel group
+            stateInfo += '</div>';
+            //end col-xs-12
+          stateInfo += '</div>';
           }
         }
         //if it's not contested, it has no challengers
         else {
-          console.log("This state is not contested!");
+            stateInfo += '<div class="col-xs-12 text-center state-contested">This state is not contested.</div>';
         }
+
           stateInfo += '</div>';
           document.getElementById(this.states[i].abbreviation).innerHTML = stateInfo;
 
-          //need to make a loop that goes through all senators in the loop and prints out info for that senator.....
-            //<img ng-src="{{image}}" />
-
-            /*
-    click and show notes = ng-show="product.images.length"      -- only show images if there are images... but how to click and show stuff?
-            */
           }
-
-        /*
-          if(this.states[i].bio !== undefined) {
-            //if there's a bio, print it
-          }
-
-          if(this.states[i].platformPoints[] !== undefined) {
-            //if there are platform points, print them
-          }
-     */
-         // add all of this to an ID
-
 
         }
       }

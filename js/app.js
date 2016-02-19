@@ -1,12 +1,5 @@
 var app = angular.module('myApp', ['infoBox']);
 
-//no space filter used for setting classes
-app.filter('nospace', function () {
-    return function (value) {
-        return (!value) ? '' : value.replace(/ /g, '');
-    };
-});
-
 app.controller('BaseController', ['$http', function($http) {
 
     this.states = [];
