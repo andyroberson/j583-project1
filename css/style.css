@@ -1,12 +1,12 @@
 /*color palette:
-dark blue - 653D94
-light blue - 5791C9
+dark blue - 7EB5EB
+light blue - ABC8E4
 
-dark red - 7D1606
-light red - CF5064
+dark red - CF5064
+light red - E7A8B2
 
-dark purple - 5F3A8C
-light purple - 7D5DB8
+dark purple - 937197
+light purple - C9B8CB
 
 gray - C7E0D7
 */
@@ -20,11 +20,15 @@ h1 {
   font-size: 3em;
 }
 
+h3 {
+  font-size: 1.2em;
+}
+
 .title {
   font-family: "Times New Roman";
   font-size: 1.5em;
-  margin-bottom: -5px;
-  margin-top: 5px;
+  margin-bottom: -30px;
+  margin-top: 15px;
 }
 
 .key-title {
@@ -52,7 +56,7 @@ h1 {
 }
 
 .uncontested-row {
-  margin-left: -33px;
+  margin-left: -25px;
 }
 
 @media (max-width: 3000px) {
@@ -67,7 +71,7 @@ h1 {
   .key {margin-top: 0;width: 600px;display: inline-block;}
   .key-top {display:inline;}
   .contested-row{display:inline;margin-bottom:-20px;}
-  .uncontested-row {margin-left:-33px;display:inline;margin-top:15px;margin-bottom:-20px;}
+  .uncontested-row {margin-left:-25px;display:inline;margin-top:15px;margin-bottom:-20px;}
   .other-key {display:inline;margin-top:-15px;}
 }
 
@@ -101,13 +105,6 @@ h1 {
 
 .both {
   color: #C9B8CB;
-}
-
-.other-contested {
-  color: #817982;
-}
-.other {
-  color: #ABA0A0;
 }
 
 /*styling for state table*/
@@ -151,9 +148,11 @@ h1 {
   h3 {
     font-size: 1.2em;
   }
-
   .senator {
     margin-top: 10px;
+  }
+  .title {
+    margin-bottom: -10px;
   }
 }
 

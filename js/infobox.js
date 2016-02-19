@@ -30,10 +30,6 @@
           //creating variables that will store information about state / senator
           var stateInfo = "";
 
-
-          //controlling party
-          console.log("Controlling Party: " + this.states[i].controllingParty);
-
           stateInfo += '<div class="panel-body">';
           //loop for printing senator info
           for (var j = 0; j < this.states[i].senators.length; j++) {
