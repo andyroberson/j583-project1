@@ -1,22 +1,34 @@
 [
   {
     "state": "Alabama",
+    "abbreviation": "al",
+    "letter": "A",
     "senators": [
           {
               "firstName": "Richard",
               "lastName": "Shelby",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Shelby has been a senator for 29 years.He was born in Birminham in 1934 and has held previous political offices in the U.S. House of Representatives (from 1789 - 1987) and Alabama State Senate from 1970 - 1978",
+              "platforms": [
+                {"platform" :"Against gay marriage"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Opposes prioritizing green energy"}
+              ],
+              "image": "images/senators/AL-Richard-Shelby.jpg"
           },
           {
             "firstName": "Jeff",
             "lastName": "Sessions",
             "party": "Republican",
             "status": "senator",
-            "bio": "",
-            "image": ""
+            "bio": "Jeff Sessions was born in Selma, Alabama in 1946. He first became a senator of Alabama in 1996. He had previously worked as Alabama's Attorney General from 1994 - 1996 and has also worked as an attorney.",
+            "platforms": [
+              {"platform" : "Anti-immigration (backed Trump's immigration platform"},
+              {"platform" : "Pro-life"},
+              {"platform" : "Supports harsh penalties for drug offenses"}
+            ],
+            "image": "images/senators/AL-Jeff-Sessions.jpg"
           }
     ],
     "controllingParty": "Republican",
@@ -68,14 +80,21 @@
   },
   {
     "state": "Alaska",
+    "abbreviation": "ak",
+    "letter": "B",
     "senators":  [
             {
               "firstName": "Lisa",
               "lastName": "Murkowski",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Lisa Murkowski was born in 1957 and has been senator since 2002. She went to Georgetown University in 1980 and has practiced as an attorney.",
+              "platforms": [
+                {"platform" : "Against same-sex marriage"},
+                {"platform" : "Against abortion"},
+                {"platform" : "Supports gun ownership"}
+              ],
+              "image": "images/senators/AK-Lisa-Murkowski.jpg"
             },
             {
               "firstName": "Daniel S.",
@@ -83,25 +102,31 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/AK-Daniel-Sullivan.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-          { }
-      ]
+    "challengers": []
   },
   {
     "state": "Arizona",
+    "abbreviation": "az",
+    "letter": "D",
     "senators": [
             {
               "firstName": "John",
               "lastName": "McCain",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John McCain was born in Panama in 1936 and has been a senator for 29 years. He gained name-recognition in 2008 when he ran for President of the US.",
+              "platforms": [
+                {"platform" : "Opposes Obamacare"},
+                {"platform" : "Against abortion"},
+                {"platform" : "Strongly favors harsher punishments for crime"}
+              ],
+              "image": "images/senators/AZ-John-McCain.jpg"
             },
             {
               "firstName": "Jeff",
@@ -109,7 +134,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/AZ-Jeff-Flake.jpg"
             }
     ],
     "contested": true,
@@ -142,19 +168,26 @@
             "party": "Americans Elect of Arizona",
             "bio": "",
             "image": ""
-          },
+          }
       ]
   },
   {
     "state": "Arkansas",
+    "abbreviation": "ar",
+    "letter": "C",
     "senators": [
             {
               "firstName": "John",
               "lastName": "Boozman",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John Boozman was born in 1950. He began his term as a senator in 2011, and had previously held offices include the House of Representatives from 2001 to 2011. He also works as an optometrist.",
+              "platforms": [
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Supports privatizing Social Security"},
+                {"platform" : "Against legalizing marijuana"}
+              ],
+              "image": "images/senators/AR-John-Boozman.jpg"
             },
             {
               "firstName": "Tom",
@@ -162,7 +195,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/AR-Tom-Cotton.jpg"
             }
     ],
     "contested": true,
@@ -200,14 +234,21 @@
   },
   {
     "state": "California",
+    "abbreviation": "ca",
+    "letter": "E",
     "senators": [
             {
               "firstName": "Barbara",
               "lastName": "Boxer",
               "party": "Democrat",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Barbara Boxer assumed office in 1993. She was born in Brooklyn, NY in 1940. She plans on continuing her work with important issues after she retires in 2016.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
+              ],
+              "image": "images/senators/CA-Barbara-Boxer.jpg"
             },
             {
               "firstName": "Dianne",
@@ -215,7 +256,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CA-Dianne-Feinstein.jpg"
             }
     ],
     "contested": true,
@@ -304,19 +346,26 @@
             "party": "Independent",
             "bio": "",
             "image": ""
-          },
+          }
         ]
   },
   {
     "state": "Colorado",
+    "abbreviation": "co",
+    "letter": "F",
     "senators": [
             {
               "firstName": "Michael",
               "lastName": "Bennet",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Michael Bennet was born in New Delhi, India in 1964. He became senator in 2009 and graduated from Yale Law School in 1993 ",
+              "platforms": [
+                {"platform" : "Supports Obamacare"},
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes marijuana legalization"}
+              ],
+              "image": "images/senators/CO-Michael-Bennet.jpg"
             },
             {
               "firstName": "Cory",
@@ -324,11 +373,12 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CO-Cory-Gardner.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
           {
             "firstName": "Darryl",
@@ -411,14 +461,21 @@
   },
   {
     "state": "Connecticut",
+    "abbreviation": "ct",
+    "letter": "G",
     "senators":  [
             {
               "firstName": "Richard",
               "lastName": "Blumenthal",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Richard Blumenthal was born in 1946 in Brooklyn, New York. He served in the Marines from 1970 - 1976. He held several other offices before being elected as senator in 2011, including Connecticut Attorney General from 1991 - 2011, and as a Connecticut State Senator from 1987 to 1991.",
+              "platforms": [
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes Social Security privatization"},
+                {"platform" : "Opposes gun ownership"}
+              ],
+              "image": "images/senators/CT-Richard-Blumenthal.jpg"
             },
             {
               "firstName": "Christopher S.",
@@ -426,7 +483,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/CT-Christopher-S-Murphy.jpg"
             }
     ],
     "contested": true,
@@ -443,14 +501,21 @@
   },
   {
     "state": "Delaware",
+    "abbreviation": "de",
+    "letter": "H",
     "senators":  [
             {
               "firstName": "Chris",
               "lastName": "Coons",
               "party": "Democrat",
-              "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "status": "senator",
+              "bio": "Chris Coons sbecame a senator in 2010. He attended Yale Law School in 1992. He was appointed to the Appropriations Committee in 2013",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Opposes military expansion"},
+                {"platform" : "Favors Obamacare"}
+              ],
+              "image": "images/senators/DE-Chris-Coons.jpg"
             },
             {
               "firstName": "Tom",
@@ -458,7 +523,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/DE-Tom-Carper.jpg"
             }
     ],
     "contested": false,
@@ -469,14 +535,21 @@
   },
   {
     "state": "Florida",
+    "abbreviation": "fl",
+    "letter": "J",
     "senators":  [
             {
               "firstName": "Marc",
               "lastName": "Rubio",
               "party": "Republican",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Marc Rubio became a senator in 2011. He was born in 1971 in Miami and Graduated from the University of Miami's Law School in 1996. He served in Florida House of Representatives from 2000 to 2008 and he's currently running for President.",
+              "platforms": [
+                {"platform" : "Strongly pro-life"},
+                {"platform" : "Opposes Obamacare"},
+                {"platform" : "Strong Second Amendment advocate"}
+              ],
+              "image": "images/senators/FL-MarcO-Rubio.jpg"
             },
             {
               "firstName": "Bill",
@@ -484,7 +557,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/FL-Bill-Nelson.jpg"
             }
     ],
     "contested": true,
@@ -559,19 +633,26 @@
         "party": "No Party Affiliation",
         "bio": "",
         "image": ""
-      },
+      }
       ]
   },
   {
     "state": "Georgia",
+    "abbreviation": "ga",
+    "letter": "K",
     "senators":  [
             {
               "firstName": "Johnny",
               "lastName": "Isakson",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Johnny Isakson became senator in 2005 after serving in the House of Representatives from 1999 - 2004. He was born in Atlanta in 1944 and served in the Georgia Air National Guard from 1966 to 1972.",
+              "platforms": [
+                {"platform" : "Favors supporting and expanding free trade"},
+                {"platform" : "Favors Social Security privatization"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
+              ],
+              "image": "images/senators/GA-Johnny-Isakson.jpg"
             },
             {
               "firstName": "David",
@@ -579,7 +660,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/GA-David-Perdue.jpg"
             }
     ],
     "contested": true,
@@ -596,14 +678,21 @@
   },
   {
     "state": "Hawaii",
+    "abbreviation": "hi",
+    "letter": "L",
     "senators":  [
             {
               "firstName": "Brian",
               "lastName": "Schatz",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Brian Schatz was born in Michigan in 1972 and was elected a senator in 2010. He had previously served as the Lieutenant Governor of Hawaii from 2010 - 2012 and in the Hawaii House of Representatives from 1998 - 2006.",
+              "platforms": [
+                {"platform" : "Favors higher taxes on the wealthy"},
+                {"platform" : "Opposes Social Security privatization"},
+                {"platform" : "Supports gun control"}
+              ],
+              "image": "images/senators/HI-Brian-Schatz.jpg"
             },
             {
               "firstName": "Mazie K.",
@@ -611,17 +700,18 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/HI-Mazie_Hirono.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Democrat",
-    "challengers": [
-      {   }
-      ]
+    "challengers": []
   },
   {
     "state": "Idaho",
+    "abbreviation": "id",
+    "letter": "M",
     "senators":  [
             {
               "firstName": "Jim",
@@ -629,33 +719,44 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/ID-Jim-Risch.jpg"
             },
             {
               "firstName": "Mike",
               "lastName": "Crapo",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Mike Crapo was born in Idaho in 1951. He served in the US House of Representatives from 1993 - 1999 and was elected senator in 1999. He graduated Harvard Law School in 1977 and has practiced law.",
+              "platforms": [
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Against same-sex marriage"},
+                {"platform" : "Supports military expansion"}
+              ],
+              "image": "images/senators/ID-Mike-Crapo.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {   }
-      ]
+    "challengers": []
   },
   {
     "state": "Illinois",
+    "abbreviation": "il",
+    "letter": "N",
     "senators":  [
             {
               "firstName": "Mark",
               "lastName": "Kirk",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Mark Kirk served in the US House of Representatives from 2001 to 2010 before becoming a senator in 2011. He was born in Illinois and works as an attorney and Commander in U.S. Navy Reserve.",
+              "platforms": [
+                {"platform" : "Favors keeping God in public sphere"},
+                {"platform" : "Against absolute right to gun ownership"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
+              ],
+              "image": "images/senators/IL-Mark-Kirk.jpg"
             },
             {
               "firstName": "Dick",
@@ -663,7 +764,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/IL-Richard-Durbin.jpg"
             }
     ],
     "contested": true,
@@ -703,19 +805,26 @@
         "party": "Veterans Party of America",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Indiana",
+    "abbreviation": "in",
+    "letter": "O",
     "senators":  [
             {
               "firstName": "Dan",
               "lastName": "Coats",
               "party": "Republican",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Dan Coats was born in 1943 in Michigan. He earned a law degree from Indiana University School of Law in 1971 after serving in the arm from 1966 to 1968. He has held an office in the House of Representatives from 1981 to 1988 and in the US Senate from 1989 - 1999. He was re-elected as a senator in 2010 and is retiring this year.",
+              "platforms": [
+                {"platform": "Opposes Obamacare expansion"},
+                {"platform": "Pro-life"},
+                {"platform": "Supports military expansions`"}
+              ],
+              "image": "images/senators/IN-Dan-Coats.jpg"
             },
             {
               "firstName": "Joe",
@@ -723,11 +832,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/IN-Joe-Donnelly.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "tied",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Martin",
@@ -761,14 +871,21 @@
   },
   {
     "state": "Iowa",
+    "abbreviation": "ia",
+    "letter": "P",
     "senators":  [
             {
               "firstName": "Chuck",
               "lastName": "Grassley",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Chuck Grassley has been a senator for 35 years. He previously held a position as a US Representative from 1975 - 1981. He was born in Iowa in 1933.",
+              "platforms": [
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Supports privatization of Social Security"},
+                {"platform" : "Against same-sex marriage"}
+              ],
+              "image": "images/senators/IA-Chuck-Grassley.jpg"
             },
             {
               "firstName": "Joni",
@@ -776,7 +893,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/IA-Joni-Ernst.jpg"
             }
     ],
     "contested": true,
@@ -807,14 +925,21 @@
   },
   {
     "state": "Kansas",
+    "abbreviation": "ks",
+    "letter": "Q",
     "senators":  [
             {
               "firstName": "Jerry",
               "lastName": "Moran",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Jerry Moran was born in Kansas in 1954. He has been a senator for 5 years and had previously served as a US Representative from 1997 to 2011 and on the Kansas State Senate from 1989 to 1997.",
+              "platforms": [
+                {"platform" : "Opposes abortion rights"},
+                {"platform" : "Supports absolute gun ownership"},
+                {"platform" : "Opposed staying out of Iran"}
+              ],
+              "image": "images/senators/KS-Jerry_Moran.jpg"
             },
             {
               "firstName": "Pat",
@@ -822,25 +947,31 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/KS-Pat-Roberts.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Kentucky",
+    "abbreviation": "ky",
+    "letter": "R",
     "senators":  [
             {
               "firstName": "Rand",
               "lastName": "Paul",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Rand Paul was born in 1963 in Pittsburgh. He graduated from Duke University with a medical degree and works as an ophthalmologist. He was first elected as a senator in 2010.",
+              "platforms": [
+                {"platform" : "Opposes military expansion"},
+                {"platform" : "Favors staying out of Iran"},
+                {"platform" : "Supports legalization of hemp."}
+              ],
+              "image": "images/senators/KY-Rand-Paul.jpg"
             },
             {
               "firstName": "Mitch",
@@ -848,7 +979,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/KY-Mitch-McConnell.jpg"
             }
     ],
     "contested": true,
@@ -916,19 +1048,26 @@
         "party": "Democrat",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Louisiana",
+    "abbreviation": "la",
+    "letter": "S",
     "senators":  [
             {
               "firstName": "David",
               "lastName": "Vitter",
               "party": "Republican",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "David Vitter was born in New Orleans in 1961. He held a position in the Louisiana State House of Representatives from 1992 to 1999 and in the US House of Representatives from 1999 to 2005. He was elected as a senator in 2005.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against immigration"},
+                {"platform" : "Opposes higher taxes on wealthy"}
+              ],
+              "image": "images/senators/LA-David-Vitter.jpg"
             },
             {
               "firstName": "Bill",
@@ -936,7 +1075,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/LA-Bill_Cassidy.jpg"
             }
     ],
     "contested": true,
@@ -990,11 +1130,13 @@
         "party": "Independent",
         "bio": "",
         "image": ""
-      },
-      ]
+      }
+    ]
   },
   {
     "state": "Maine",
+    "abbreviation": "me",
+    "letter": "T",
     "senators":  [
             {
               "firstName": "Angus",
@@ -1002,7 +1144,8 @@
               "party": "Independent",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/ME-Angus-King.jpg"
             },
             {
               "firstName": "Susan",
@@ -1010,25 +1153,33 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/ME-Susan-Collins.jpg"
             }
     ],
     "contested": false,
-    "controllingParty": "tie",
+    "controllingParty": "Rep-Ind",
     "challengers": [
       { }
       ]
   },
   {
     "state": "Maryland",
+    "abbreviation": "md",
+    "letter": "U",
     "senators":  [
             {
               "firstName": "Barbara",
               "lastName": "Mikulski",
               "party": "Democrat",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Barbara Mikulski was born in Baltimore. She has served as a senator for 29 years, and worked for 10 years in the US House of Representatives prior to being a senator. She was a social worker before she became a politician.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
+              ],
+              "image": "images/senators/MD-Barbara_Mikulski.jpg"
             },
             {
               "firstName": "Ben",
@@ -1036,7 +1187,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MD-Ben_Cardin.jpg"
             }
     ],
     "contested": true,
@@ -1096,8 +1248,7 @@
             "lastName": "Ehrlich, Jr.",
             "party": "Republican",
             "bio": "",
-            "image
-            ": ""
+            "image": ""
           },
           {
             "firstName": "Mark",
@@ -1266,11 +1417,13 @@
             "party": "Independent",
             "bio": "",
             "image": ""
-          },
+          }
         ]
   },
   {
     "state": "Massachusetts",
+    "abbreviation": "ma",
+    "letter": "V",
     "senators":  [
             {
               "firstName": "Ed",
@@ -1278,7 +1431,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MA-Ed-Markey.jpg"
             },
             {
               "firstName": "Elizabeth",
@@ -1286,7 +1440,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MA-Elizabeth-Warren.jpg"
             }
     ],
     "contested": false,
@@ -1297,6 +1452,8 @@
   },
   {
     "state": "Michigan",
+    "abbreviation": "mi",
+    "letter": "W",
     "senators":  [
             {
               "firstName": "Debbie",
@@ -1304,7 +1461,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MI-Debbie_Stabenow.jpg"
             },
             {
               "firstName": "Gary",
@@ -1312,23 +1470,20 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MI-Gary-Peters.jpg"
             }
     ],
     "contested": false,
     "controllingParty": "Democrat",
     "challengers": [
-      {
-        "firstName": "Darryl",
-        "lastName": "Glenn",
-        "party": "Republican",
-        "bio": "",
-        "image": ""
-      }
+      { }
     ]
   },
   {
     "state": "Minnesota",
+    "abbreviation": "mn",
+    "letter": "X",
     "senators":  [
             {
               "firstName": "Al",
@@ -1336,7 +1491,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MN-Al_Franken.jpg"
             },
             {
               "firstName": "Amy",
@@ -1344,7 +1500,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MN-Amy_Klobuchar.jpg"
             }
     ],
     "contested": false,
@@ -1355,6 +1512,8 @@
   },
   {
     "state": "Mississippi",
+    "abbreviation": "ms",
+    "letter": "Y",
     "senators":  [
             {
               "firstName": "Roger",
@@ -1362,7 +1521,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MS-Roger_Wicker.jpg"
             },
             {
               "firstName": "Thad",
@@ -1370,7 +1530,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MS-Thad_Cochran.jpg"
             }
     ],
     "contested": false,
@@ -1381,14 +1542,21 @@
   },
   {
     "state": "Missouri",
+    "abbreviation": "mo",
+    "letter": "Z",
     "senators":  [
             {
               "firstName": "Roy",
               "lastName": "Blunt",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Roy Blunt was born in 1950. He served as a US Representative from 1996 - 2008 and was elected a senator in 2011.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
+              ],
+              "image": "images/senators/MO-Roy_Blunt.jpg"
             },
             {
               "firstName": "Claire",
@@ -1396,11 +1564,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MO-Claire_McCaskill.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Christopher",
@@ -1427,6 +1596,8 @@
   },
   {
     "state": "Montana",
+    "abbreviation": "mt",
+    "letter": "a",
     "senators":  [
             {
               "firstName": "Jon",
@@ -1434,7 +1605,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MT-Jon_Tester.jpg"
             },
             {
               "firstName": "Steve",
@@ -1442,17 +1614,20 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/MT-Steve_Daines.jpg"
             }
     ],
     "contested": false,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       { }
     ]
   },
   {
     "state": "Nebraska",
+    "abbreviation": "ne",
+    "letter": "b",
     "senators":  [
             {
               "firstName": "Ben",
@@ -1460,7 +1635,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NE-Ben_Sasse.jpg"
             },
             {
               "firstName": "Deb",
@@ -1468,7 +1644,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NE-Deb-Fischer.jpg"
             }
     ],
     "contested": false,
@@ -1479,14 +1656,21 @@
   },
   {
     "state": "Nevada",
+    "abbreviation": "nv",
+    "letter": "c",
     "senators":  [
             {
               "firstName": "Harry",
               "lastName": "Reid",
               "party": "Democrat",
               "status": "retiring",
-              "bio": "",
-              "image": ""
+              "bio": "Harry Reid was born in 1939. He has been a senator for 29 years and has worked as a lawyer.",
+              "platforms": [
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors prioritizing green energy"},
+                {"platform" : "Supports legalization of marijuana"}
+              ],
+              "image": "images/senators/NV-Harry_Reid.jpg"
             },
             {
               "firstName": "Dean",
@@ -1494,11 +1678,12 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NV-Dean_Heller.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Joe",
@@ -1518,14 +1703,21 @@
   },
   {
     "state": "New Hampshire",
+    "abbreviation": "nh",
+    "letter": "d",
     "senators":  [
             {
               "firstName": "Kelly",
               "lastName": "Ayotte",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Kelly Ayotte was born in 1968. She got her law degree from Villanova University and has worked as a lawyer. She became a senator in 2011 and had previously served as New Hampshire's Attorney General from 2004 - 2009.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Supports harsher punishment for crimes"}
+              ],
+              "image": "images/senators/NH-Kelly_Ayotte.jpg"
             },
             {
               "firstName": "Jeanne",
@@ -1533,11 +1725,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NH-Jeanne_Shaheen.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Maggie",
@@ -1550,6 +1743,8 @@
   },
   {
     "state": "New Jersey",
+    "abbreviation": "nj",
+    "letter": "e",
     "senators":  [
             {
               "firstName": "Bob",
@@ -1557,7 +1752,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NJ-Bob_Menendez.jpg"
             },
             {
               "firstName": "Cory",
@@ -1565,7 +1761,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NJ-Cory_Booker.jpg"
             }
     ],
     "contested": false,
@@ -1576,6 +1773,8 @@
   },
   {
     "state": "New Mexico",
+    "abbreviation": "nm",
+    "letter": "f",
     "senators":  [
             {
               "firstName": "Martin",
@@ -1583,7 +1782,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NM-Martin_Heinrich.jpg"
             },
             {
               "firstName": "Tom",
@@ -1591,7 +1791,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NM-Tom_Udall.jpg"
             }
     ],
     "contested": false,
@@ -1602,40 +1803,53 @@
   },
   {
     "state": "New York",
+    "abbreviation": "ny",
+    "letter": "g",
     "senators":  [
             {
               "firstName": "Chuck",
               "lastName": "Schumer",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Check Schumer was born in 1950. He earned his Bachelor and Law degree from Harvard University. He became a senator in 1999 and had served in several other political offices before then, including US house of Representatives from New York's 9th District from 1993 - 1999.",
+              "platforms": [
+                {"platform" : "Supports oversight of Iran's nuclear program"},
+                {"platform" : "Supports cyber security act"},
+                {"platform" : "Against completion of fence between US and Mexico"}
+              ],
+              "image": "images/senators/NY-Chuck_Schumer.jpg"
             },
             {
-              "firstName": "Kirsten.",
+              "firstName": "Kirsten",
               "lastName": "Gillibrand",
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NY-Kirsten-Gillibrand.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Democrat",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "North Carolina",
+    "abbreviation": "nc",
+    "letter": "h",
     "senators":  [
             {
               "firstName": "Richard",
               "lastName": "Burr",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Richard Burr was born in Charlottesville, Virginia. He worked as a sales executive and went to Wake Forest for his Bachelor's degree. He became a senator in 2005.",
+              "platforms": [
+                {"platform" : "Against Obamacare expansion"},
+                {"platform" : "Favors absolute gun ownership"},
+                {"platform" : "Supports military expansion"}
+              ],
+              "image": "images/senators/NC-Richard_Burr.jpg"
             },
             {
               "firstName": "Thom",
@@ -1643,7 +1857,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/NC-Thom_Tillis.jpg"
             }
     ],
     "contested": true,
@@ -1709,14 +1924,21 @@
   },
   {
     "state": "North Dakota",
+    "abbreviation": "nd",
+    "letter": "i",
     "senators":  [
             {
               "firstName": "John",
               "lastName": "Hoeven",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John Hoeven was born in 1957. He worked as a banking executive before his career as a politician. He became a senator in 2011.",
+              "platforms": [
+                {"platform" : "Pro-choice"},
+                {"platform" : "Against absolute gun ownership"},
+                {"platform" : "Supports same-sex marriage"}
+              ],
+              "image": "images/senators/ND-John_Hoeven.jpg"
             },
             {
               "firstName": "Heidi",
@@ -1724,11 +1946,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/ND-Heidi_Heitkamp.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Darryl",
@@ -1741,14 +1964,21 @@
   },
   {
     "state": "Ohio",
+    "abbreviation": "oh",
+    "letter": "j",
     "senators":  [
             {
               "firstName": "Rob",
               "lastName": "Portman",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Rob Portman was born in Cincinatti in 1955. He went to Darmouth College for his Bachelor's Degree and he graduated from University of Michigan Law School in 1984. He held several other political positions (including servering as a US Representative from 1993 - 2005), before becoming a senator in 2011.",
+              "platforms": [
+                {"platform" : "Supports completition of fence between Mexico and USA"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Supports military expansion"}
+              ],
+              "image": "images/senators/OH-Rob_Portman.jpg"
             },
             {
               "firstName": "Sherrod",
@@ -1756,11 +1986,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/OH-Sherrod_Brown.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Don Elijah",
@@ -1810,19 +2041,26 @@
         "party": "Independent",
         "bio": "",
         "image": ""
-      },
+      }
     ]
   },
   {
     "state": "Oklahoma",
+    "abbreviation": "ok",
+    "letter": "k",
     "senators":  [
             {
               "firstName": "James",
               "lastName": "Lankford",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "James Lankford was born in Texas. He has worked as a Youth Camp Director and obtained a Master's degree from Southwestern Baptist Theological Seminary. He became a senator in 2015.",
+              "platforms": [
+                {"platform" : "Pro-life"},
+                {"platform" : "Supports absolute gun ownership"},
+                {"platform" : "Against same-sex marriage"}
+              ],
+              "image": "images/senators/OK-James_Lankford.jpg"
             },
             {
               "firstName": "Jim",
@@ -1830,33 +2068,40 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/OK-Jim_Inhofe.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Oregon",
+    "abbreviation": "or",
+    "letter": "l",
     "senators":  [
             {
               "firstName": "Ron",
               "lastName": "Wyden",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Ron Wyden was born in Kansas in 1949. He graduated from Stanford University with a Bachelor's degree in Political Science in 1971. He held an office in the US House of Representatives from 1981 - 1996 and became a senator in 1996.",
+              "platforms": [
+                {"platform" : "Pro-immigration"},
+                {"platform" : "Supports green energy prioritization"},
+                {"platform" : "Supports marijuana legalization"}
+              ],
+              "image": "images/senators/OR-Ron_Wyden.jpg"
             },
             {
-              "firstName": "Jeff.",
+              "firstName": "Jeff",
               "lastName": "Merkley",
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/OR-Jeff_Merkley.jpg"
             }
     ],
     "contested": true,
@@ -1873,14 +2118,21 @@
   },
   {
     "state": "Pennsylvania",
+    "abbreviation": "pa",
+    "letter": "m",
     "senators":  [
             {
               "firstName": "Pat",
               "lastName": "Toomey",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Pat Toomey was born in Rhode Island. He became a senator in 2011 and has a valued net worth of $2,977,025.",
+              "platforms": [
+                {"platform" : "pro-life"},
+                {"platform" : "Opposes higher taxes on the wealthy."},
+                {"platform" : "Supports privatization of Social Security"}
+              ],
+              "image": "images/senators/PA-Pat_Toomey.jpg"
             },
             {
               "firstName": "Bob",
@@ -1888,11 +2140,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/PA-Bob_Casey.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Joe",
@@ -1926,6 +2179,8 @@
   },
   {
     "state": "Rhode Island",
+    "abbreviation": "ri",
+    "letter": "n",
     "senators":  [
             {
               "firstName": "Jack",
@@ -1933,7 +2188,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/RI-Jack_Reed.jpg"
             },
             {
               "firstName": "Sheldon",
@@ -1941,7 +2197,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/RI-Sheldon_Whitehouse.jpg"
             }
     ],
     "contested": false,
@@ -1952,14 +2209,21 @@
   },
   {
     "state": "South Carolina",
+    "abbreviation": "sc",
+    "letter": "o",
     "senators":  [
             {
               "firstName": "Tim",
               "lastName": "Scott",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Tim Scott was born in 1965. He graduated Charleston Southern University in 1988 with a Bachelor's Degree and held several political offices (including serving as a Representative in SC House of Representatives) before becoming a senator in 2013.",
+              "platforms": [
+                {"platform" : "Against legal requirements for hiring women and minorities"},
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors military expansion"}
+              ],
+              "image": "images/senators/SC-Tim_Scott.jpeg"
             },
             {
               "firstName": "Lindsey",
@@ -1967,25 +2231,31 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/SC-Lindsey_Graham.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "South Dakota",
+    "abbreviation": "sd",
+    "letter": "p",
     "senators":  [
             {
               "firstName": "John",
               "lastName": "Thune",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "John Thune was born in 1961. He was a US Representatives from 1997 to 2003 and became a senator in 2005.",
+              "platforms": [
+                {"platform" : "Pro-life"},
+                {"platform" : "Against higher taxes on the wealthy"},
+                {"platform" : "Against marijuana legalization"}
+              ],
+              "image": "images/senators/SD-John_Thune.jpg"
             },
             {
               "firstName": "Mike",
@@ -1993,17 +2263,18 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/SD-Mike_Rounds.jpg"
             }
     ],
     "contested": true,
     "controllingParty": "Republican",
-    "challengers": [
-      {  }
-    ]
+    "challengers": []
   },
   {
     "state": "Tennessee",
+    "abbreviation": "tn",
+    "letter": "q",
     "senators":  [
             {
               "firstName": "Bob",
@@ -2011,7 +2282,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/TN-Bob_Corker.jpg"
             },
             {
               "firstName": "Lamar",
@@ -2019,7 +2291,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/TN-Lamar_Alexander.jpg"
             }
     ],
     "contested": false,
@@ -2030,6 +2303,8 @@
   },
   {
     "state": "Texas",
+    "abbreviation": "tx",
+    "letter": "r",
     "senators":  [
             {
               "firstName": "Johnny",
@@ -2037,7 +2312,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/TX-John_Cornyn.jpg"
             },
             {
               "firstName": "Ted",
@@ -2045,7 +2321,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/TX-Ted_Cruz.jpg"
             }
     ],
     "contested": false,
@@ -2056,14 +2333,21 @@
   },
   {
     "state": "Utah",
+    "abbreviation": "ut",
+    "letter": "s",
     "senators":  [
             {
               "firstName": "Mike",
               "lastName": "Lee",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Mike Lee was born in Arizona in 1971. He got a law degree from Brigham Young University School of Law. He has been a senator since 2011.",
+              "platforms": [
+                {"platform" : "Supports completition of fence between Mexico and the United States"},
+                {"platform" : "Opposes Obamacare expansion"},
+                {"platform" : "Opposes higher taxes on the wealthy"}
+              ],
+              "image": "images/senators/UT-Mike_Lee.jpg"
             },
             {
               "firstName": "Orrin",
@@ -2071,25 +2355,31 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/UT-Orrin_Hatch.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "Democrat",
-    "challengers": [
-      {    }
-    ]
+    "controllingParty": "Republican",
+    "challengers": []
   },
   {
     "state": "Vermont",
+    "abbreviation": "vt",
+    "letter": "u",
     "senators":  [
             {
               "firstName": "Patrick",
               "lastName": "Leahy",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Patrick Leahy was born in 1940. He has been a senator for 41 years and was been President pro tempore of the Senate from 2012 - 2015.",
+              "platforms": [
+                {"platform" : "Pro-life"},
+                {"platform" : "Favors Obamacare expansion"},
+                {"platform" : "Favors higher taxes on the wealthy"}
+              ],
+              "image": "images/senators/VT-Patrick_Leahy.jpg"
             },
             {
               "firstName": "Bernie",
@@ -2097,17 +2387,18 @@
               "party": "Independent",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/VT-Bernie_Sanders.jpg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
-    "challengers": [
-      {  }
-    ]
+    "controllingParty": "Dem-Ind",
+    "challengers": []
   },
   {
     "state": "Virginia",
+    "abbreviation": "va",
+    "letter": "t",
     "senators":  [
             {
               "firstName": "Mark",
@@ -2115,7 +2406,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/VA-Mark_Warner.jpg"
             },
             {
               "firstName": "Tim",
@@ -2123,7 +2415,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/VA-Tim_Kaine.jpg"
             }
     ],
     "contested": false,
@@ -2134,14 +2427,21 @@
   },
   {
     "state": "Washington",
+    "abbreviation": "wa",
+    "letter": "v",
     "senators":  [
             {
               "firstName": "Patty",
               "lastName": "Murray",
               "party": "Democrat",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Patty Muray was born in 1950. She got her Bachelor's degree from Washington State University and has been a senator since 1993.",
+              "platforms": [
+                {"platform" : "Against keeping God in the public sphere"},
+                {"platform" : "Favors military expansion"},
+                {"platform" : "Favors same-sex marriage"}
+              ],
+              "image": "images/senators/WA-Patty_Murray.jpg"
             },
             {
               "firstName": "Maria",
@@ -2149,7 +2449,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WA-Maria_Cantwell.jpg"
             }
     ],
     "contested": true,
@@ -2166,6 +2467,8 @@
   },
   {
     "state": "West Virginia",
+    "abbreviation": "wv",
+    "letter": "w",
     "senators":  [
             {
               "firstName": "Joe",
@@ -2173,7 +2476,8 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WV-Joe_Manchin.jpg"
             },
             {
               "firstName": "Shelley Moore",
@@ -2181,25 +2485,33 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WV-Shelley_Moore.jpeg"
             }
     ],
     "contested": false,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       { }
     ]
   },
   {
     "state": "Wisconsin",
+    "abbreviation": "wi",
+    "letter": "x",
     "senators":  [
             {
               "firstName": "Ron",
               "lastName": "Johnson",
               "party": "Republican",
               "status": "incumbent",
-              "bio": "",
-              "image": ""
+              "bio": "Ron Johnson was born in 1955 in Minnesota. He became a senator in 2010 and previously worked as an accountant and businessman.",
+              "platforms": [
+                {"platform" : "Pro-life"},
+                {"platform" : "Opposes higher taxes on the wealthy"},
+                {"platform" : "Supports gun rights"}
+              ],
+              "image": "images/senators/WI-Ron_Johnson.jpg"
             },
             {
               "firstName": "Tammy",
@@ -2207,11 +2519,12 @@
               "party": "Democrat",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WI-Tammy_Baldwin.jpeg"
             }
     ],
     "contested": true,
-    "controllingParty": "mixed",
+    "controllingParty": "tie",
     "challengers": [
       {
         "firstName": "Russ",
@@ -2231,6 +2544,8 @@
   },
   {
     "state": "Wyoming",
+    "abbreviation": "wy",
+    "letter": "y",
     "senators":  [
             {
               "firstName": "John",
@@ -2238,7 +2553,8 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WY-John_Barrasso.jpg"
             },
             {
               "firstName": "Mike",
@@ -2246,13 +2562,12 @@
               "party": "Republican",
               "status": "senator",
               "bio": "",
-              "image": ""
+              "platforms": [],
+              "image": "images/senators/WY-Mike_Enzi.jpg"
             }
     ],
     "contested": false,
     "controllingParty": "Republican",
-    "challengers": [
-      {    }
-    ]
+    "challengers": []
   }
 ]

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+
+        <!-- angular -->
+        <script type="text/javascript" src="js/angular.js"></script>
+
+        <!-- script -->
+        <script src="js/jquery.min.js"></script>
+        <!--jquery necessary for modal to work-->
+
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/infobox.js"></script>
+
+        <!--map css-->
+        <link rel="stylesheet" href="stately-master/assets/css/stately.css?v=1.0">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!--used for key boxes-->
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    </head>
+
+    <body ng-app="myApp">
+      <div class="container" ng-controller="BaseController as base">
+
+        <!--title and intro-->
+        <div class="row text-center">
+        <h1>2016 Senate Race</h1>
+        <div class="col-xs-1"></div>
+          <div class="col-xs-10">An application for learning about the parties in power, the current senators, and the candidates for the 2016 senate elections!
+          </div>
+        <div class="col-xs-1"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-xs-1"></div>
+            <div class="col-md-10 col-xs-10">
+              <div class="title"><u>Map of Senate Party in Power</u></div>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+
+         <!--map-->
+          <div class="map-test col-lg-8 col-xs-12">
+            <ul class="stately" id="plain">
+
+              <li ng-repeat="state in base.states"
+                  ng-style="base.getMapColor(state.state)"
+                  ng-class="[base.getClass(state.state)]">
+                    {{state.letter}}
+              </li>
+            </ul>
+          </div>
+
+          <!--key-->
+          <div class="col-lg-4 col-md-12 col-xs-12 text-center">
+            <div class="key">
+              <div class="key-title"><b class="text-center">Key:</b></div>
+              <br>
+              <div class="row">
+                <span class="contested-row">  CONTESTED:</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top dem-contested"></i> Democrat</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top rep-contested"></i> Republican</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top both-contested"></i> Both</span>
+              </div>
+              <div class="row">
+                <span class="uncontested-row">NOT CONTESTED:</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top dem"></i> Democrat</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top rep"></i> Republican</span>
+                <span class="key-item"><i class="fa fa-square fa-lg key-top both"></i> Mixed</span>              </div>
+            </div>
+          </div>
+
+          <!--table instructions-->
+          <div class="col-xs-12 text-center"><h3>Learn more about current senators and candidates by clicking on a state in the table below or by using the search bar to filter your results.</h3></div>
+
+
+            <!--search bar here; allows users to filter results by states or senators -->
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10" style="text-align: center;margin-left: auto; margin-right: auto;">
+                 <div class="nav navbar-nav text-center" style="display: inline-block;width: 100%; ">
+                     <input type="text" ng-model="terms" class="form-control"
+                     style="margin-left: auto; margin-right: auto;text-align:center;margin-top:15px;margin-bottom:15px;"
+                     placeholder="Search for a state or senator" />
+                 </div>
+            </div>
+            <div class="col-xs-1"></div>
+
+             <!--table of states here-->
+             <div class="col-xs-12 state-table" ng-controller="InfoController as info">
+               <div class="panel-group" ng-repeat="state in info.states | filter:terms" ng-click="info.infoBox(state.state)">
+                 <div class="panel panel-default" >
+                   <div class="panel-heading" ng-style="base.getStateColor(state.state)">
+                     <h4 class="panel-title">
+
+                       <!--using abbreviation as ID because unique and it has no spaces-->
+                       <a data-toggle="collapse" href="#{{state.abbreviation}}">{{ state.state }}</a>
+                     </h4>
+                    </div>
+                     <div id="{{state.abbreviation}}" class="panel-collapse collapse">
+                     </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!--credits-->
+              <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 text-center credits">
+                  Senator Data from <a href="https://ballotpedia.org/">ballotpedia.org</a>
+                </div>
+                <div class="col-xs-1"></div>
+              </div>
+    <!--end baseController as base div-->
+    </div>
+    </body>
+</html>

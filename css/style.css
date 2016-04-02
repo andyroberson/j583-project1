@@ -1,0 +1,163 @@
+/*color palette:
+dark blue - 7EB5EB
+light blue - ABC8E4
+
+dark red - CF5064
+light red - E7A8B2
+
+dark purple - 937197
+light purple - C9B8CB
+
+gray - C7E0D7
+*/
+
+body {
+  font-family: "tahoma";
+}
+
+h1 {
+  font-family: "Times New Roman";
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.title {
+  font-family: "Times New Roman";
+  font-size: 1.5em;
+  margin-bottom: -30px;
+  margin-top: 15px;
+}
+
+.key-title {
+  background: black;
+  color: #fff;
+}
+
+.key {
+  border: 1px solid #000;
+  border-radius: 20px;
+  overflow: hidden;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:30px;
+}
+
+.key-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.key-top {
+  margin-top:22px;
+}
+
+.uncontested-row {
+  margin-left: -25px;
+}
+
+@media (max-width: 3000px) {
+  .key {width: 300px;margin-top:100px;margin-left: -20px;}
+  .key-top {display:block;}
+  .contested-row{display:block;margin-bottom:-20px;}
+  .uncontested-row {margin-left:0;display:block;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:block;margin-top:-15px;}
+}
+
+@media (max-width: 1199px) {
+  .key {margin-top: 0;width: 600px;display: inline-block;}
+  .key-top {display:inline;}
+  .contested-row{display:inline;margin-bottom:-20px;}
+  .uncontested-row {margin-left:-25px;display:inline;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:inline;margin-top:-15px;}
+}
+
+@media (max-width: 700px) {
+  .key {width: 300px;margin-top:5px;}
+  .key-top {display:block;}
+  .contested-row{display:block;margin-bottom:-20px;}
+  .uncontested-row {margin-left:0;display:block;margin-top:15px;margin-bottom:-20px;}
+  .other-key {display:block;margin-top:-15px;}
+}
+
+.dem-contested {
+  color: #7EB5EB;
+}
+
+.dem {
+  color: #ABC8E4;
+}
+
+.rep-contested {
+  color: #CF5064;
+}
+
+.rep {
+  color: #E7A8B2;
+}
+
+.both-contested {
+  color: #937197;
+}
+
+.both {
+  color: #C9B8CB;
+}
+
+/*styling for state table*/
+.state-table {
+ margin-bottom:50px;
+}
+
+/*to display panels with no spaces in between*/
+.panel-group {
+  margin-bottom:0px;
+}
+
+/*rounded senator image*/
+.image {
+  height:100px;
+  width:auto;
+  border-radius:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.state-contested {
+  margin-top: 10px;
+}
+
+
+/*overriding map css*/
+
+.stately {
+  font-size: 600px;
+  width: 600px;
+}
+
+#plain {
+  background: none;
+}
+
+@media (max-width: 700px) {
+  .stately {width: 300px;font-size:300px;}
+
+  h3 {
+    font-size: 1.2em;
+  }
+  .senator {
+    margin-top: 10px;
+  }
+  .title {
+    margin-bottom: -10px;
+  }
+}
+
+.credits {
+  font-size: 10px;
+  color: #817982;
+  margin-bottom: 6px;
+}
