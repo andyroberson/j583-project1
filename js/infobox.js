@@ -33,9 +33,9 @@
           stateInfo += '<div class="panel-body">';
           //loop for printing senator info
           for (var j = 0; j < this.states[i].senators.length; j++) {
-            stateInfo += '<div class="text-center senator col-md-6 col-sm-12 col-xs-12"><img src="../'+
-            this.states[i].senators[j].image+'"class="image"/>';
-            stateInfo += '<h3>Senator ' +
+            stateInfo += '<div class="senator col-md-6 col-sm-12 col-xs-12"><div class="img-container text-center"><img src="'+
+            this.states[i].senators[j].image+'"class="image"/></div>';
+            stateInfo += '<h3 class="text-center">Senator ' +
             this.states[i].senators[j].firstName + ' ' + this.states[i].senators[j].lastName + '</h3>';
             stateInfo += '<b>Party:</b> ' + this.states[i].senators[j].party;
             stateInfo += '<br><b>Status:</b> ' + this.states[i].senators[j].status;

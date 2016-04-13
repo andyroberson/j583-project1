@@ -539,17 +539,17 @@
     "letter": "J",
     "senators":  [
             {
-              "firstName": "Marc",
+              "firstName": "Marco",
               "lastName": "Rubio",
               "party": "Republican",
               "status": "retiring",
-              "bio": "Marc Rubio became a senator in 2011. He was born in 1971 in Miami and Graduated from the University of Miami's Law School in 1996. He served in Florida House of Representatives from 2000 to 2008 and he's currently running for President.",
+              "bio": "Marco Rubio became a senator in 2011. He was born in 1971 in Miami and Graduated from the University of Miami's Law School in 1996. He served in Florida House of Representatives from 2000 to 2008 and he's currently running for President.",
               "platforms": [
                 {"platform" : "Strongly pro-life"},
                 {"platform" : "Opposes Obamacare"},
                 {"platform" : "Strong Second Amendment advocate"}
               ],
-              "image": "images/senators/FL-MarcO-Rubio.jpg"
+              "image": "images/senators/FL-Marco-Rubio.jpg"
             },
             {
               "firstName": "Bill",
